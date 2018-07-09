@@ -17,29 +17,35 @@ def timeStampPlotter():
     timestamps = np.linspace(now, now + duration, n)
     dates = [dt.datetime.fromtimestamp(ts) for ts in timestamps]
 
+def testPlotterCumulativeCount():
+
     df = readJson.giveDataFrameExample()
-    print(df)
-
-    # #print(type(dateutil.parser.parse('2018-07-06T00:00:00Z', ignoretz=True)))
-    # #print(dates)
-    # datenums = md.date2num(dates)
-    # values = np.sin((timestamps - now) / duration * 2 * np.pi)
-    # plt.subplots_adjust(bottom=0.2)
-    # plt.xticks(rotation=25)
-    # ax = plt.gca()
-    # xfmt = md.DateFormatter('%Y-%m-%d %H:%M:%S')
-    # ax.xaxis.set_major_formatter(xfmt)
-    # plt.plot(datenums, values)
-    # plt.show()
-
-def testPlotter():
-    dfex = readJson.giveDataFrameExample()
-    df = dfex.cumsum()
-    plt.figure()
-    df.plot()
+    example = df.ix[:, 'count']
+    test = example.cumsum()
+    plt.figure();
+    test.plot();
     plt.legend(loc='best')
+    plt.show()
+
+def testPlotterHistogram():
+    colors = ['red', 'tan', 'lime']
+
+    #np.random.seed(0)
+    n_bins = 3
+    df = readJson.giveDataFrameExample()
+    x = df.ix[0:2, 'count'].values[:,np.newaxis].T
+
+    fig = plt.figure()
+    ax0 = fig.add_subplot(111)
+    ax0.hist(x, n_bins, histtype='bar')
+    plt.xlabel('Date')
+    plt.ylabel('Frequency')
+    ax0.legend(prop={'size': 3})
+    ax0.set_title('View count histogram')
+    plt.show()
 
 #timeStampPlotter()
-#testPlotter()
+#testPlotterCumulativeCount()
+testPlotterHistogram()
 
 
