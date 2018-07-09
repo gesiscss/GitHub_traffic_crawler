@@ -40,6 +40,6 @@ def testPlotter():
     plt.legend(loc='best')
 
 #timeStampPlotter()
-testPlotter()
+#testPlotter()
 
 

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GesisTraffic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GesisTraffic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRetrieval/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/clones/2018-07-09.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/clones/2018-07-09.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/paths/2018-07-09.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/paths/2018-07-09.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/referrers/2018-07-09.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/referrers/2018-07-09.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/views/2018-07-09.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/views/2018-07-09.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1531147526451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1531147936450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1531147324166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
   </component>
   <component name="FileEditorManager">
@@ -33,7 +25,7 @@
       <file leaf-file-name="readJson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="595">
               <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -42,23 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="620">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -85,9 +68,9 @@
       <list>
         <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
         <option value="$PROJECT_DIR$/gh_traffic/config.ini" />
+        <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
       </list>
     </option>
   </component>
@@ -128,11 +111,6 @@
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
               <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
               <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
@@ -237,9 +215,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.878125" visible="true" weight="0.32929105" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.878125" visible="true" weight="0.32929105" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.010416667" />
@@ -380,22 +358,19 @@
     <entry file="file://$PROJECT_DIR$/gh_traffic/views/2018-07-09.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="595">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -403,10 +378,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
+    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="620">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
