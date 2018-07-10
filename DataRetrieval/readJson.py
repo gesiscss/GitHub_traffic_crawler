@@ -47,11 +47,16 @@ def printJsonTuple():
 def giveDataFrameExample():
     for key, value in findJsonFiles().items():
         if(key.__contains__("2018-07.json")):
-            return value
+            return (getShortName(path=key), value)
+
+def getShortName(path):
+    substringList = path.split("\\")[-2:len(path)-1:]
+    return str(substringList[0]+"_"+substringList[1])
 
 def dataFrameManipulationTest():
     df = giveDataFrameExample()
     print(df.loc[[0], ['timestamp']])
+
 
 
 

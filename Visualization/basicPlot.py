@@ -7,7 +7,9 @@ import pandas as pd
 import time
 import numpy as np
 import dateutil.parser
+import os
 
+IMAGES_FOLDER = os.path.dirname(os.getcwd())+"\Visualization\Images\\"
 
 def timeStampPlotter():
 
@@ -29,20 +31,21 @@ def testPlotterCumulativeCount():
 
 def testPlotterHistogram():
     colors = ['red', 'tan', 'lime']
-
-    #np.random.seed(0)
     n_bins = 3
-    df = readJson.giveDataFrameExample()
-    x = df.ix[0:2, 'count'].values[:,np.newaxis].T
+    name = readJson.giveDataFrameExample()[0]
+    df = readJson.giveDataFrameExample()[1]
 
-    fig = plt.figure()
-    ax0 = fig.add_subplot(111)
-    ax0.hist(x, n_bins, histtype='bar')
-    plt.xlabel('Date')
-    plt.ylabel('Frequency')
-    ax0.legend(prop={'size': 3})
-    ax0.set_title('View count histogram')
-    plt.show()
+    fig, axes = plt.subplots(nrows=3, ncols=1)
+    for i, c in enumerate(df.columns):
+        if(c == 'timestamp'):
+            continue
+        df[c].plot(kind='bar', ax=axes[i], figsize=(12, 10), title=c)
+    savePlotAsAnImage(plt, name=name)
+
+def savePlotAsAnImage(plt, name):
+    fullPathAndName =  IMAGES_FOLDER+str(name)+".png"
+    print("Full path is: ",fullPathAndName)
+    plt.savefig(fullPathAndName)
 
 #timeStampPlotter()
 #testPlotterCumulativeCount()
