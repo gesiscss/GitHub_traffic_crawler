@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataRetrieval/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/clones_2018-07.json.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/example.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +15,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1531211238401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1531211155112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1531216437064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1531212741966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readJson.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readJson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+            <state relative-caret-position="391">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -32,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="10" selection-start-line="2" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="441">
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -44,33 +53,9 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/Images/example.png">
+      <file leaf-file-name="clones_2018-07.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gh_traffic/clones/2018-07.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07-09.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gh_traffic/clones/2018-07-09.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07-10.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gh_traffic/clones/2018-07-10.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -85,6 +70,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>getShortName</find>
+      <find>plt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,8 +84,8 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gh_traffic/config.ini" />
-        <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
+        <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
       </list>
     </option>
   </component>
@@ -139,30 +126,6 @@
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
               <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
               <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
-              <item name="clones" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
-              <item name="paths" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
-              <item name="referrers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
@@ -269,20 +232,20 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.12324142" side_tool="true" visible="true" weight="0.32908913" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.12492966" side_tool="true" visible="true" weight="0.32908913" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8767586" visible="true" weight="0.32908913" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.87507033" visible="true" weight="0.32908913" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12436691" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877884" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49971864" weight="0.32908913" />
       <window_info anchor="right" id="SciView" order="3" weight="0.24085538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947917" weight="0.39925373" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4980304" weight="0.3986288" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -299,7 +262,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -428,13 +391,6 @@
     <entry file="file://$PROJECT_DIR$/gh_traffic/paths/2018-07-10.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gh_traffic/clones/2018-07-09.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -450,22 +406,38 @@
     <entry file="file://$PROJECT_DIR$/Visualization/Images/example.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/clones_2018-07.json.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07.json.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="441">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

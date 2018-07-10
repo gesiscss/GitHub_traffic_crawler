@@ -8,8 +8,11 @@ import time
 import numpy as np
 import dateutil.parser
 import os
+from datetime import datetime
 
+#these are not constant values should be changed
 IMAGES_FOLDER = os.path.dirname(os.getcwd())+"\Visualization\Images\\"
+REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
 
 def timeStampPlotter():
 
@@ -35,16 +38,26 @@ def testPlotterHistogram():
     name = readJson.giveDataFrameExample()[0]
     df = readJson.giveDataFrameExample()[1]
 
-    fig, axes = plt.subplots(nrows=3, ncols=1)
+    timestampValues = df.values[:,1]
+    timestampValues = [str(timeStampeValue.date()) for timeStampeValue in timestampValues]
+
+    df = df.drop('timestamp', 1)
+    fig, axes = plt.subplots(nrows=2, ncols=1)
+
     for i, c in enumerate(df.columns):
-        if(c == 'timestamp'):
-            continue
-        df[c].plot(kind='bar', ax=axes[i], figsize=(12, 10), title=c)
+        df[c].plot(kind='bar', ax=axes[i], figsize=(12, 10), title=c.upper())
+        if (i == len(df.columns) - 1):
+            axes[i].set_xticklabels(timestampValues)
+        else:
+            axes[i].set_xticklabels([])
+
     savePlotAsAnImage(plt, name=name)
 
 def savePlotAsAnImage(plt, name):
-    fullPathAndName =  IMAGES_FOLDER+str(name)+".png"
-    print("Full path is: ",fullPathAndName)
+    newpath = IMAGES_FOLDER+REPOSITORY_NAME
+    if not os.path.exists(newpath):
+        os.makedirs(newpath)
+    fullPathAndName =  IMAGES_FOLDER+REPOSITORY_NAME+str(name)+".png"
     plt.savefig(fullPathAndName)
 
 #timeStampPlotter()

@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import pandas as pd
 import os
+import configparser
 
 def readJsonPlain(filename):
 
@@ -50,12 +51,22 @@ def giveDataFrameExample():
             return (getShortName(path=key), value)
 
 def getShortName(path):
+    #this gets called twice, see why
     substringList = path.split("\\")[-2:len(path)-1:]
-    return str(substringList[0]+"_"+substringList[1])
+    return str(substringList[0]+"_"+substringList[1].split(".json")[0])
 
 def dataFrameManipulationTest():
     df = giveDataFrameExample()
     print(df.loc[[0], ['timestamp']])
+
+def receiveRepositoryName():
+    Config = configparser.ConfigParser()
+    Config.read(os.path.dirname(os.getcwd()) + "\gh_traffic\config.ini")
+    section = Config.sections()[0]
+    return Config.get(section, 'repository').split("/")[-1]
+
+
+
 
 
 
