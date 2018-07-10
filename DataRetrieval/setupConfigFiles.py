@@ -18,7 +18,6 @@ def generateConfigFiles():
     repositories = rr.retrieveRepositoriesList()
     for repository in repositories:
         config['github'] = {}
-        config['github']['token'] = ' 97347e59e82e7352a00c1803597ff51d0f3c9d7e '  # update
         config['github']['repository'] = 'gesiscss/'+repository  # create
         with open(CONFIG_FILES_FOLDER + repository + "_config.ini", 'w') as configfile:  # save
             config.write(configfile)
