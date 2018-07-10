@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setupConfigFiles.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py">
+      <file leaf-file-name="setupConfigFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="666">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -138,6 +138,7 @@
         <option value="$PROJECT_DIR$/setup.bat" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFile.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -556,16 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -582,8 +573,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="221">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
@@ -593,7 +604,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
