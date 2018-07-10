@@ -1,4 +1,3 @@
-python setup.py
 github_get_traffic -c gh_traffic/configFiles/Wikipedia-Language-Olga-master_config.ini -o gh_traffic
 github_get_traffic -c gh_traffic/configFiles/mlkoblenz_config.ini -o gh_traffic
 github_get_traffic -c gh_traffic/configFiles/wiki_history_config.ini -o gh_traffic
@@ -18,4 +17,3 @@ github_get_traffic -c gh_traffic/configFiles/wiki-download-parse-page-views_conf
 github_get_traffic -c gh_traffic/configFiles/kubespawner_config.ini -o gh_traffic
 github_get_traffic -c gh_traffic/configFiles/jupyterhub_config.ini -o gh_traffic
 github_get_traffic -c gh_traffic/configFiles/Hierarchical_nested_SBM_config.ini -o gh_traffic
-github_get_traffic -c gh_traffic/configFiles/GitHub_traffic_crawler_config.ini -o gh_traffic
