@@ -24,13 +24,24 @@ def timeStampPlotter():
 
 def testPlotterCumulativeCount():
 
-    df = readJson.giveDataFrameExample()
+    name = readJson.giveDataFrameExample()[0]
+    df = readJson.giveDataFrameExample()[1]
+
+    timestampValues = df.values[:,1]
+    timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
+
     example = df.ix[:, 'count']
     test = example.cumsum()
     plt.figure();
     test.plot();
     plt.legend(loc='best')
-    plt.show()
+
+    # fig, ax = plt.subplots()
+    # ax.set_xticklabels([])
+
+    title = "Cumulative count from " + timestampValues[0] + " to " + timestampValues[-1]
+    plt.title(title)
+    savePlotAsAnImage(plt, name=name, type='cumulative')
 
 def testPlotterHistogram():
     colors = ['red', 'tan', 'lime']
@@ -39,7 +50,7 @@ def testPlotterHistogram():
     df = readJson.giveDataFrameExample()[1]
 
     timestampValues = df.values[:,1]
-    timestampValues = [str(timeStampeValue.date()) for timeStampeValue in timestampValues]
+    timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
 
     df = df.drop('timestamp', 1)
     fig, axes = plt.subplots(nrows=2, ncols=1)
@@ -51,17 +62,17 @@ def testPlotterHistogram():
         else:
             axes[i].set_xticklabels([])
 
-    savePlotAsAnImage(plt, name=name)
+    savePlotAsAnImage(plt, name=name, type='histogram')
 
-def savePlotAsAnImage(plt, name):
+def savePlotAsAnImage(plt, name, type):
     newpath = IMAGES_FOLDER+REPOSITORY_NAME
     if not os.path.exists(newpath):
         os.makedirs(newpath)
-    fullPathAndName =  IMAGES_FOLDER+REPOSITORY_NAME+str(name)+".png"
+    fullPathAndName =  IMAGES_FOLDER+REPOSITORY_NAME+str(name)+"_"+type+".png"
     plt.savefig(fullPathAndName)
 
 #timeStampPlotter()
-#testPlotterCumulativeCount()
+testPlotterCumulativeCount()
 testPlotterHistogram()
 
 

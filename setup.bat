@@ -1,0 +1,1 @@
+github_get_traffic -c gh_traffic/config.ini -o gh_traffic
