@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRetrieval/readRepositories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRetrieval/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readJson.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/clones/2018-07-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/clones/2018-07-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/clones/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/clones/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/paths/2018-07-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/paths/2018-07-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/referrers/2018-07-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/referrers/2018-07-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/views/2018-07-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/views/2018-07-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,16 +25,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFiles.coverage" NAME="setupConfigFiles Coverage Results" MODIFIED="1531229588230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1531217663078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1531212741966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$readRepositories.coverage" NAME="readRepositories Coverage Results" MODIFIED="1531229129696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="readJson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="151">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="72" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -31,11 +44,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
+      <file leaf-file-name="readRepositories.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="153">
+              <caret line="9" column="99" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +59,8 @@
       <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            <state relative-caret-position="117">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -52,28 +68,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="setup.bat" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/setup.bat">
+      <file leaf-file-name="setupConfigFiles.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="48" selection-start-column="47" selection-end-column="48" />
+            <state relative-caret-position="459">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+                <marker date="1531229878555" expanded="true" signature="1831:1836" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clones_2018-07_histogram.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07_histogram.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="clones_2018-07_cumulative.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07_cumulative.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="setup.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hierarchical_nested_SBM_config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/Hierarchical_nested_SBM_config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -89,7 +139,10 @@
     <findStrings>
       <find>print</find>
       <find>plt</find>
+      <find>gesis</find>
       <find>getShortName</find>
+      <find>config</find>
+      <find>receiveRepositoryName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,11 +153,14 @@
       <list>
         <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/gh_traffic/config.ini" />
-        <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
+        <option value="$PROJECT_DIR$/gh_traffic/config2.ini" />
         <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
+        <option value="$PROJECT_DIR$/gh_traffic/config.ini" />
+        <option value="$PROJECT_DIR$/DataRetrieval/readRepositories.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py" />
         <option value="$PROJECT_DIR$/setup.bat" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -118,8 +174,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="9" />
+    <option name="x" value="21" />
+    <option name="y" value="17" />
     <option name="width" value="1793" />
     <option name="height" value="1135" />
   </component>
@@ -144,20 +200,7 @@
             <path>
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
               <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="Visualization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="Visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="Visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
-              <item name="Hierarchical_nested_SBM" type="462c0819:PsiDirectoryNode" />
+              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.basicPlot">
+  <component name="RunManager" selected="Python.setupConfigFiles">
     <configuration name="basicPlot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GesisTraffic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,12 +267,54 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="readRepositories" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GesisTraffic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataRetrieval" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataRetrieval/readRepositories.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="setupConfigFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GesisTraffic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataRetrieval" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.readJson" />
       <item itemvalue="Python.basicPlot" />
+      <item itemvalue="Python.readRepositories" />
+      <item itemvalue="Python.setupConfigFiles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.setupConfigFiles" />
+        <item itemvalue="Python.readRepositories" />
         <item itemvalue="Python.basicPlot" />
         <item itemvalue="Python.readJson" />
       </list>
@@ -249,7 +334,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="9" width="1793" height="1135" extended-state="0" />
+    <frame x="21" y="17" width="1793" height="1135" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -399,13 +484,6 @@
     <entry file="file://$PROJECT_DIR$/gh_traffic/views/2018-07-09.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gh_traffic/paths/2018-07-10.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -427,52 +505,118 @@
     <entry file="file://$PROJECT_DIR$/Visualization/Images/clones_2018-07.json.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07.json.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07_histogram.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/config2.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="151">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="72" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07_histogram.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/binderhub">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/test.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/GitHub_traffic_crawler_config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/kubespawner_config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/Hierarchical_nested_SBM_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="99" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        <state relative-caret-position="117">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1531229878555" expanded="true" signature="1831:1836" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="48" selection-start-column="47" selection-end-column="48" />
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>

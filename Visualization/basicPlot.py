@@ -71,7 +71,6 @@ def savePlotAsAnImage(plt, name, type):
     fullPathAndName =  IMAGES_FOLDER+REPOSITORY_NAME+str(name)+"_"+type+".png"
     plt.savefig(fullPathAndName)
 
-#timeStampPlotter()
 testPlotterCumulativeCount()
 testPlotterHistogram()
 

@@ -1,1 +1,21 @@
-github_get_traffic -c gh_traffic/config.ini -o gh_traffic
+python setup.py
+github_get_traffic -c gh_traffic/configFiles/Wikipedia-Language-Olga-master_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/mlkoblenz_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/wiki_history_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/promoss_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/image-gender-inference_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/orc_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/Wikipedia-Politician-Network_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/jhub_shibboleth_auth_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/scientists-analysis-wikipedia_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/scientists-analysis_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/PythonDataScienceHandbook_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/binderhub_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/workshop_girls_day_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/repo2docker_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/ptm_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/wiki-download-parse-page-views_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/kubespawner_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/jupyterhub_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/Hierarchical_nested_SBM_config.ini -o gh_traffic
+github_get_traffic -c gh_traffic/configFiles/GitHub_traffic_crawler_config.ini -o gh_traffic
