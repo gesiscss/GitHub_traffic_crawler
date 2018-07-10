@@ -6,7 +6,7 @@ import pandas as pd
 def retrieveRepositoriesList():
 
     response = requests.get("https://api.github.com/orgs/gesiscss/repos").json()
-    print("Response: ", response)
+    #print("Response: ", response)
     #API can sometimes reply with - rate limit exceeded for this server.. make an offline json file
     dataFrame = pd.DataFrame.from_dict(response)
     listOfRepositories = dataFrame['archive_url'].values

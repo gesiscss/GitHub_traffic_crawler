@@ -23,7 +23,7 @@ def readJsonPanda(jsonPath):
 
 def findJsonFiles():
 
-    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\gh_traffic"
+    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\gh_traffic\Repositories"
     pathlist = Path(gesisTrafficDirectory).glob('**/*.json')
     jsonFileAndContentInPandaFormat = {}
 
@@ -51,17 +51,33 @@ def giveDataFrameExample():
 
 def getShortName(path):
     #this gets called twice, see why
-    substringList = path.split("\\")[-2:len(path)-1:]
+    substringList = path.split("\\")[-3:len(path)-1:]
     return str(substringList[0]+"_"+substringList[1].split(".json")[0])
 
 def dataFrameManipulationTest():
     df = giveDataFrameExample()
     print(df.loc[[0], ['timestamp']])
 
+def giveJsonFilePerRepository():
+    listOfKeyValueRepositories = []
+    repository = ""
+    listOfJsonFilePaths = []
+    for key, value in findJsonFiles().items():
+        key = getShortName(key)
+        if ~listOfKeyValueRepositories.__contains__(key):
+            listOfJsonFilePaths.append(key)
+        # else:
+        #     listOfKeyValueRepositories.append(key)
+    return listOfJsonFilePaths
 
+#print(getShortName("C:\\Users\\popovirr\\PycharmProjects\\GesisTraffic\\gh_traffic\\Repositories\\repo2docker\\clones\\2018-07-10.json"))
 
+#printJsonPaths()
 
+# for key, value in findJsonFiles().items():
+#     print(getShortName(key))
 
+print(giveJsonFilePerRepository())
 
 
 

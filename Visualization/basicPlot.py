@@ -12,7 +12,7 @@ from datetime import datetime
 
 #these are not constant values should be changed
 IMAGES_FOLDER = os.path.dirname(os.getcwd())+"\Visualization\Images\\"
-REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
+#REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
 
 def timeStampPlotter():
 
@@ -65,11 +65,15 @@ def testPlotterHistogram():
     savePlotAsAnImage(plt, name=name, type='histogram')
 
 def savePlotAsAnImage(plt, name, type):
-    newpath = IMAGES_FOLDER+REPOSITORY_NAME
+    newpath = IMAGES_FOLDER
     if not os.path.exists(newpath):
         os.makedirs(newpath)
-    fullPathAndName =  IMAGES_FOLDER+REPOSITORY_NAME+str(name)+"_"+type+".png"
-    plt.savefig(fullPathAndName)
+    fullPathAndName =  IMAGES_FOLDER+str(name)+"_"+type+".png"
+    print(fullPathAndName)
+    #plt.savefig(fullPathAndName)
+
+#def runPlotForEveryRepository():
+
 
 testPlotterCumulativeCount()
 testPlotterHistogram()
