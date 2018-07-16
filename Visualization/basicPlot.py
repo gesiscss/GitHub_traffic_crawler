@@ -63,8 +63,10 @@ def testPlotterHistogram():
 
         timestampValues = df.values[:, 1]
 
+
         if(subcategory=='views'):
             if (isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
+                timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
                 df = df.drop('timestamp', 1)
                 fig, axes = plt.subplots(nrows=2, ncols=1)
                 for i, c in enumerate(df.columns):
