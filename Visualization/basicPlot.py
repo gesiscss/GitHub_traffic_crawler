@@ -9,10 +9,18 @@ import numpy as np
 import dateutil.parser
 import os
 from datetime import datetime
-
+import sys
+from PIL import Image
+import math
+from enum import Enum
 #these are not constant values should be changed
 IMAGES_FOLDER = os.path.dirname(os.getcwd())+"\Visualization\Images\\"
 #REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
+
+
+class PlotType(Enum):
+    histogram = 1
+    cumulative = 2
 
 def timeStampPlotter():
 
@@ -47,7 +55,7 @@ def testPlotterCumulativeCount():
                 # fig, ax = plt.subplots()
                 # ax.tick_params(labelbottom=False)
 
-                title = "Cumulative count from " + timestampValues[0] + " to " + timestampValues[-1]
+                title = "Info from " + timestampValues[0] + " to " + timestampValues[-1] + " \nfor " + " : " + name
                 plt.title(title)
                 savePlotAsAnImage(plt, name=name, type='cumulative')
 
@@ -63,14 +71,13 @@ def testPlotterHistogram():
 
         timestampValues = df.values[:, 1]
 
-
         if(subcategory=='views'):
             if (isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
                 timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
                 df = df.drop('timestamp', 1)
                 fig, axes = plt.subplots(nrows=2, ncols=1)
                 for i, c in enumerate(df.columns):
-                    df[c].plot(kind='bar', ax=axes[i], figsize=(12, 10), title=c.upper())
+                    df[c].plot(kind='bar', ax=axes[i], figsize=(12, 10), title=c.upper()+" : "+name)
                     if (i == len(df.columns) - 1):
                         axes[i].set_xticklabels(timestampValues)
                     else:
@@ -106,10 +113,40 @@ def savePlotAsAnImage(plt, name, type):
     fullPathAndName =  newpath+str(name)+"_"+type+".png"
     plt.savefig(fullPathAndName)
 
+def mergePngFiles(type):
+
+    images_list = specialList = readJson.findPngFiles(type)
+    imgs = [Image.open(i) for i in images_list]
+    dimension = int(math.sqrt(math.ceil(len(images_list))))
+    listOfHorizontalImages = []
+
+    for k in range(dimension):
+        min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs [k:dimension+k] ])[0][1]
+        img_merge = np.hstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs [k:dimension+k] ))
+
+        # save the horizontally merged images
+        img_merge = Image.fromarray(img_merge)
+        path = str(k)+"temporary.png"
+        listOfHorizontalImages.append(path)
+        img_merge.save(path)
+
+    imgs = [Image.open(i) for i in listOfHorizontalImages]
+    min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs[0:dimension]])[0][1]
+    img_merge = np.vstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs))
+    img_merge = Image.fromarray(img_merge)
+    img_merge.save("Full_"+type+".png")
+
+    dirTest = os.path.dirname(os.getcwd()) + "\Visualization\\"
+    for file in os.listdir(os.path.dirname(dirTest) ):
+        if file.endswith('temporary.png'):
+            print(file)
+            os.remove(file)
+
 #def runPlotForEveryRepository():
 
 
 #testPlotterCumulativeCount()
-testPlotterHistogram()
+#testPlotterHistogram()
+mergePngFiles("cumulative")
 
 

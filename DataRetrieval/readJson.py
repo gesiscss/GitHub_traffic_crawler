@@ -32,6 +32,18 @@ def findJsonFiles():
         jsonFileAndContentInPandaFormat[path_in_str] = readJsonPanda(path_in_str)
     return jsonFileAndContentInPandaFormat
 
+def findPngFiles(type):
+    #gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\Visualization\Images\cumulative\\"
+    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\Visualization\Images\\"+type+"\\"
+    pathlist = Path(gesisTrafficDirectory).glob('**/*.png')
+    pngFileList = []
+
+    return [str(x) for x in pathlist]
+    #
+    # for path in pathlist:
+    #     pngFileList.append = str(path)
+    # return pngFileList
+
 def printJsonPaths():
     for key, value in findJsonFiles().items():
         print(key)
