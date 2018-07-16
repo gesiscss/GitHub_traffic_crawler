@@ -54,6 +54,11 @@ def getShortName(path):
     substringList = path.split("\\")[-3:len(path)-1:]
     return str(substringList[0]+"_"+substringList[1].split(".json")[0])
 
+def getShortName2(path):
+    #this gets called twice, see why
+    substringList = path.split("\\")[-3:len(path)-1:]
+    return substringList
+
 def dataFrameManipulationTest():
     df = giveDataFrameExample()
     print(df.loc[[0], ['timestamp']])
@@ -62,13 +67,34 @@ def giveJsonFilePerRepository():
     listOfKeyValueRepositories = []
     repository = ""
     listOfJsonFilePaths = []
+    counter = 0
     for key, value in findJsonFiles().items():
-        key = getShortName(key)
-        if ~listOfKeyValueRepositories.__contains__(key):
-            listOfJsonFilePaths.append(key)
-        # else:
-        #     listOfKeyValueRepositories.append(key)
+
+        key = getShortName2(key)
+
+        # dictionaryInstance = { key : value }
+        # indexOfListElement = isThereKeyDictionaryValueInList(listOfJsonFilePaths, key)
+        # if(indexOfListElement==-1):
+        #     listOfJsonFilePaths.append(dictionaryInstance)
+        #else:
+            #print("Value is: ",value)
+            #listOfJsonFilePaths[indexOfListElement].append(value)
+
+        #
+        #     listOfJsonFilePaths
+        # print("Key", key)
+        #listOfJsonFilePaths[counter].append(value)
     return listOfJsonFilePaths
+
+def isThereKeyDictionaryValueInList(list, key):
+
+    counter = 0
+    for elem in list:
+        for keyString in elem:
+            if(keyString == key):
+                return counter
+        counter = counter + 1
+    return -1
 
 #print(getShortName("C:\\Users\\popovirr\\PycharmProjects\\GesisTraffic\\gh_traffic\\Repositories\\repo2docker\\clones\\2018-07-10.json"))
 
@@ -77,7 +103,10 @@ def giveJsonFilePerRepository():
 # for key, value in findJsonFiles().items():
 #     print(getShortName(key))
 
-print(giveJsonFilePerRepository())
+
+list = giveJsonFilePerRepository()
+#isThereKeyDictionaryValueInList(list,'workshop_girls_day_views')
+#print(list)
 
 
 

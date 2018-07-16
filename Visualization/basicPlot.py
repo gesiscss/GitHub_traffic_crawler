@@ -24,26 +24,58 @@ def timeStampPlotter():
 
 def testPlotterCumulativeCount():
 
-    name = readJson.giveDataFrameExample()[0]
-    df = readJson.giveDataFrameExample()[1]
+    for key, value in readJson.findJsonFiles().items():
+        subcategory = readJson.getShortName2(path=key)[1]
+        name = readJson.getShortName(path=key)
+        df = value
 
-    timestampValues = df.values[:,1]
-    timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
+        if(df.values.size==0):
+            print(name, " has empty values")
+            continue
 
-    example = df.ix[:, 'count']
-    test = example.cumsum()
-    plt.figure();
-    test.plot();
-    plt.legend(loc='best')
+        timestampValues = df.values[:, 1]
 
-    # fig, ax = plt.subplots()
-    # ax.set_xticklabels([])
+        if(subcategory=='views'):
+            if(isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
+                timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
+                example = df.ix[:, 'count']
+                test = example.cumsum()
+                plt.figure();
+                test.plot();
+                plt.legend(loc='best')
 
-    title = "Cumulative count from " + timestampValues[0] + " to " + timestampValues[-1]
-    plt.title(title)
-    savePlotAsAnImage(plt, name=name, type='cumulative')
+                # fig, ax = plt.subplots()
+                # ax.tick_params(labelbottom=False)
+
+                title = "Cumulative count from " + timestampValues[0] + " to " + timestampValues[-1]
+                plt.title(title)
+                savePlotAsAnImage(plt, name=name, type='cumulative')
 
 def testPlotterHistogram():
+
+    for key, value in readJson.findJsonFiles().items():
+        subcategory = readJson.getShortName2(path=key)[1]
+        name = readJson.getShortName(path=key)
+        df = value
+
+        if(df.values.size==0):
+            continue
+
+        timestampValues = df.values[:, 1]
+
+        if(subcategory=='views'):
+            if (isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
+                df = df.drop('timestamp', 1)
+                fig, axes = plt.subplots(nrows=2, ncols=1)
+                for i, c in enumerate(df.columns):
+                    df[c].plot(kind='bar', ax=axes[i], figsize=(12, 10), title=c.upper())
+                    if (i == len(df.columns) - 1):
+                        axes[i].set_xticklabels(timestampValues)
+                    else:
+                        axes[i].set_xticklabels([])
+                savePlotAsAnImage(plt, name=name, type='histogram')
+
+def testPlotterHistogram2():
     colors = ['red', 'tan', 'lime']
     n_bins = 3
     name = readJson.giveDataFrameExample()[0]
@@ -65,17 +97,17 @@ def testPlotterHistogram():
     savePlotAsAnImage(plt, name=name, type='histogram')
 
 def savePlotAsAnImage(plt, name, type):
-    newpath = IMAGES_FOLDER
+
+    newpath = IMAGES_FOLDER+"\\"+type+"\\"
     if not os.path.exists(newpath):
         os.makedirs(newpath)
-    fullPathAndName =  IMAGES_FOLDER+str(name)+"_"+type+".png"
-    print(fullPathAndName)
-    #plt.savefig(fullPathAndName)
+    fullPathAndName =  newpath+str(name)+"_"+type+".png"
+    plt.savefig(fullPathAndName)
 
 #def runPlotForEveryRepository():
 
 
-testPlotterCumulativeCount()
+#testPlotterCumulativeCount()
 testPlotterHistogram()
 
 
