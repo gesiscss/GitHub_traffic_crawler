@@ -1,4 +1,4 @@
-	count	timestamp	uniques
-0	2	2018-07-14	2
-1	2	2018-07-17	2
-2	1	2018-07-18	1
+count	timestamp	uniques
+2	2018-07-14	2
+2	2018-07-17	2
+1	2018-07-18	1
