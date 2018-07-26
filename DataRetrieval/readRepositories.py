@@ -17,3 +17,4 @@ def getShortNameRepository(fullPath):
     return fullPath.split('gesiscss/', 1)[1].split('/',1)[0]
 
 
+

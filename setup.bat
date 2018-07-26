@@ -6,8 +6,10 @@ github_get_traffic -c gh_traffic/configFiles/image-gender-inference_config.ini -
 github_get_traffic -c gh_traffic/configFiles/orc_config.ini -o gh_traffic/Repositories/orc
 github_get_traffic -c gh_traffic/configFiles/Wikipedia-Politician-Network_config.ini -o gh_traffic/Repositories/Wikipedia-Politician-Network
 github_get_traffic -c gh_traffic/configFiles/jhub_shibboleth_auth_config.ini -o gh_traffic/Repositories/jhub_shibboleth_auth
+github_get_traffic -c gh_traffic/configFiles/WikiConflict_config.ini -o gh_traffic/Repositories/WikiConflict
 github_get_traffic -c gh_traffic/configFiles/scientists-analysis-wikipedia_config.ini -o gh_traffic/Repositories/scientists-analysis-wikipedia
 github_get_traffic -c gh_traffic/configFiles/scientists-analysis_config.ini -o gh_traffic/Repositories/scientists-analysis
+github_get_traffic -c gh_traffic/configFiles/WebApp_config.ini -o gh_traffic/Repositories/WebApp
 github_get_traffic -c gh_traffic/configFiles/PythonDataScienceHandbook_config.ini -o gh_traffic/Repositories/PythonDataScienceHandbook
 github_get_traffic -c gh_traffic/configFiles/binderhub_config.ini -o gh_traffic/Repositories/binderhub
 github_get_traffic -c gh_traffic/configFiles/workshop_girls_day_config.ini -o gh_traffic/Repositories/workshop_girls_day
@@ -18,3 +20,5 @@ github_get_traffic -c gh_traffic/configFiles/kubespawner_config.ini -o gh_traffi
 github_get_traffic -c gh_traffic/configFiles/jupyterhub_config.ini -o gh_traffic/Repositories/jupyterhub
 github_get_traffic -c gh_traffic/configFiles/Hierarchical_nested_SBM_config.ini -o gh_traffic/Repositories/Hierarchical_nested_SBM
 github_get_traffic -c gh_traffic/configFiles/GitHub_traffic_crawler_config.ini -o gh_traffic/Repositories/GitHub_traffic_crawler
+github_get_traffic -c gh_traffic/configFiles/introduction_networkx_config.ini -o gh_traffic/Repositories/introduction_networkx
+github_get_traffic -c gh_traffic/configFiles/wikiwho_interactions_config.ini -o gh_traffic/Repositories/wikiwho_interactions

@@ -2,26 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataRetrieval/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Hierarchical_nested_SBM_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Hierarchical_nested_SBM_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/kubespawner_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/kubespawner_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/Hierarchical_nested_SBM_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/Hierarchical_nested_SBM_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/PythonDataScienceHandbook_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/PythonDataScienceHandbook_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/Wikipedia-Language-Olga-master_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/Wikipedia-Language-Olga-master_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/Wikipedia-Politician-Network_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/Wikipedia-Politician-Network_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/binderhub_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/binderhub_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/jhub_shibboleth_auth_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/jhub_shibboleth_auth_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/kubespawner_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/kubespawner_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/orc_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/orc_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/ptm_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/ptm_views_histogram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRetrieval/readRepositories.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readRepositories.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/clones/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/clones/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/PythonDataScienceHandbook/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/PythonDataScienceHandbook/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Language-Olga-master/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Language-Olga-master/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Politician-Network/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Politician-Network/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-06.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-06.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-07-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-07-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/jhub_shibboleth_auth/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/jhub_shibboleth_auth/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-06.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-06.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-07-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-07-10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/orc/clones/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/orc/clones/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/orc/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/orc/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/ptm/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/ptm/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/wiki-download-parse-page-views/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/wiki-download-parse-page-views/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-06.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-06.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-07.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,19 +37,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFile.coverage" NAME="setupConfigFile Coverage Results" MODIFIED="1531233518212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$csvManipulation.coverage" NAME="csvManipulation Coverage Results" MODIFIED="1532595441621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFile.coverage" NAME="setupConfigFile Coverage Results" MODIFIED="1532587456942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFiles.coverage" NAME="setupConfigFiles Coverage Results" MODIFIED="1531229588230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1531737852001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1531733544076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$readRepositories.coverage" NAME="readRepositories Coverage Results" MODIFIED="1531232484435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1531738466843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1532589663453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$readRepositories.coverage" NAME="readRepositories Coverage Results" MODIFIED="1532586715496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="readJson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="391">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="85" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -51,11 +58,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setupConfigFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.bat">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1595">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="233">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="13" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -63,24 +87,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Full_histogram.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/Full_histogram.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="final.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/final.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="Full_cumulative.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/Full_cumulative.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="_config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/_config.ini">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="readRepositories.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csvManipulation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -101,6 +131,10 @@
       <find>config</find>
       <find>receiveRepositoryName</find>
       <find>REPOSITORY_NAME</find>
+      <find>findJsonFiles</find>
+      <find>temporaryKey</find>
+      <find>readRepositoriesFromConfig</find>
+      <find>df</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,13 +153,22 @@
         <option value="$PROJECT_DIR$/gh_traffic/configFiles/GitHub_traffic_crawler_config.ini" />
         <option value="$PROJECT_DIR$/gh_traffic/configFiles/Wikipedia-Language-Olga-master_config.ini" />
         <option value="$PROJECT_DIR$/gh_traffic/configFiles/scientists-analysis_config.ini" />
-        <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFile.py" />
-        <option value="$PROJECT_DIR$/DataRetrieval/readRepositories.py" />
         <option value="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07-10.json" />
         <option value="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-07.json" />
         <option value="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-06.json" />
-        <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
+        <option value="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07.json" />
+        <option value="$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07-10.json" />
+        <option value="$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-06.json" />
+        <option value="$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-07-10.json" />
+        <option value="$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-07-10.json" />
+        <option value="$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-06.json" />
         <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/readRepositories.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFile.py" />
+        <option value="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-06.json" />
+        <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/myfile.csv" />
+        <option value="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" />
       </list>
     </option>
   </component>
@@ -139,10 +182,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="17" />
-    <option name="width" value="1793" />
-    <option name="height" value="1135" />
+    <option name="x" value="-7" />
+    <option name="width" value="1928" />
+    <option name="height" value="1170" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,13 +208,17 @@
             <path>
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
               <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
+              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
               <item name="Visualization" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.basicPlot">
+  <component name="RunManager" selected="Python.csvManipulation">
     <configuration name="basicPlot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GesisTraffic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,6 +255,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visualization/basicPlot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="csvManipulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GesisTraffic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataRetrieval" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,39 +336,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="setupConfigFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GesisTraffic" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataRetrieval" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.readJson" />
       <item itemvalue="Python.basicPlot" />
       <item itemvalue="Python.readRepositories" />
-      <item itemvalue="Python.setupConfigFiles" />
       <item itemvalue="Python.setupConfigFile" />
+      <item itemvalue="Python.csvManipulation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.basicPlot" />
+        <item itemvalue="Python.csvManipulation" />
         <item itemvalue="Python.readJson" />
         <item itemvalue="Python.setupConfigFile" />
         <item itemvalue="Python.readRepositories" />
-        <item itemvalue="Python.setupConfigFiles" />
+        <item itemvalue="Python.basicPlot" />
       </list>
     </recent_temporary>
   </component>
@@ -320,23 +367,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="17" width="1793" height="1135" extended-state="0" />
+    <frame x="-7" y="0" width="1928" height="1170" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1266179" side_tool="true" visible="true" weight="0.26738492" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.12813808" side_tool="true" visible="true" weight="0.28030303" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8733821" visible="true" weight="0.26738492" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.87186193" visible="true" weight="0.28030303" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877884" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19403766" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.24085538" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.22384937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969049" weight="0.3986288" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4958159" weight="0.39772728" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -354,111 +401,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/ptm_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/wiki-download-parse-page-views_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/jhub_shibboleth_auth_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/GitHub_traffic_crawler_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/Wikipedia-Language-Olga-master_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07-10.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-06.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-07.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/Hierarchical_nested_SBM/clones_2018-07_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/kubespawner_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/PythonDataScienceHandbook_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/image-gender-inference_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/ptm_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/Wikipedia-Politician-Network_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/workshop_girls_day_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/wiki-download-parse-page-views_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/wiki-download-parse-page-views_views_histogram.png" />
     <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/jupyterhub/views/2018-07-10.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -483,24 +430,12 @@
     <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/test.jpg" />
+    <entry file="file://$PROJECT_DIR$/Visualization/1.png" />
+    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h.png" />
+    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h1.png" />
+    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h2.png" />
+    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h0.png" />
     <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/Hierarchical_nested_SBM_views_histogram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -510,37 +445,179 @@
     <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/test.png" />
     <entry file="file://$PROJECT_DIR$/Visualization/final.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Full_histogram.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07-10.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/referrers/2018-07-10.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07-10.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-06.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-07-10.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/image-gender-inference/views/2018-07.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-07-10.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-06.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/repo2docker_config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/wiki_history_config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/mlkoblenz_config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/util/_doctools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/Full_cumulative.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Full_histogram.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/_config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/wikiwho_interactions_config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1595">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="233">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-06.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/938507644/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="2819" column="8" selection-start-line="2819" selection-start-column="8" selection-end-line="2819" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/io/json/json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="223" column="4" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/io/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="399" selection-start-line="399" selection-end-line="399" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/myfile.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

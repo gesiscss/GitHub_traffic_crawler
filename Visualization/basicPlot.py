@@ -18,10 +18,6 @@ IMAGES_FOLDER = os.path.dirname(os.getcwd())+"\Visualization\Images\\"
 #REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
 
 
-class PlotType(Enum):
-    histogram = 1
-    cumulative = 2
-
 def timeStampPlotter():
 
     n = 20
@@ -78,6 +74,7 @@ def testPlotterHistogram():
                 fig, axes = plt.subplots(nrows=2, ncols=1)
                 for i, c in enumerate(df.columns):
                     df[c].plot(kind='bar', ax=axes[i], figsize=(12, 10), title=c.upper()+" : "+name)
+
                     if (i == len(df.columns) - 1):
                         axes[i].set_xticklabels(timestampValues)
                     else:
