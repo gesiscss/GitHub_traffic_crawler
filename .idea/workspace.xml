@@ -47,14 +47,14 @@
     <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFiles.coverage" NAME="setupConfigFiles Coverage Results" MODIFIED="1531229588230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1532610167308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1532589663453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$readRepositories.coverage" NAME="readRepositories Coverage Results" MODIFIED="1532611816315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$readRepositories.coverage" NAME="readRepositories Coverage Results" MODIFIED="1532613723442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="readJson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
+            <state relative-caret-position="-87">
               <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -66,7 +66,7 @@
       <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="498">
               <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readRepositories.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readRepositories.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="459">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -87,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/test.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="999" column="34" selection-start-line="999" selection-start-column="34" selection-end-line="999" selection-end-column="34" />
+            <state relative-caret-position="311571">
+              <caret line="26132" lean-forward="true" selection-start-line="26132" selection-end-line="26132" />
             </state>
           </provider>
         </entry>
@@ -99,7 +99,7 @@
       <file leaf-file-name="setupConfigFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="1054">
               <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -185,8 +185,8 @@
         <option value="$PROJECT_DIR$/gh_traffic/CSV_Files/binderhub_views.csv" />
         <option value="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" />
         <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
-        <option value="$PROJECT_DIR$/DataRetrieval/readRepositories.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/test.json" />
+        <option value="$PROJECT_DIR$/DataRetrieval/readRepositories.py" />
       </list>
     </option>
   </component>
@@ -394,9 +394,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.87186193" visible="true" weight="0.28030303" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.87186193" visible="true" weight="0.28030303" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23901674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23901674" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49971864" weight="0.32908913" />
@@ -511,9 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Full_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/Full_histogram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -584,16 +581,6 @@
     <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/ptm_clones_cumulative.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Politician-Network_views.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -632,6 +619,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Language-Olga-master_views.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311571">
+          <caret line="26132" lean-forward="true" selection-start-line="26132" selection-end-line="26132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Full_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -642,43 +672,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Language-Olga-master_views.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="459">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="999" column="34" selection-start-line="999" selection-start-column="34" selection-end-line="999" selection-end-column="34" />
         </state>
       </provider>
     </entry>
