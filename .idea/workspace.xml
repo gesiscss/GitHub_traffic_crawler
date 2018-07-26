@@ -42,10 +42,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GesisTraffic$csvManipulation.coverage" NAME="csvManipulation Coverage Results" MODIFIED="1532603803888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$csvManipulation.coverage" NAME="csvManipulation Coverage Results" MODIFIED="1532607264906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFile.coverage" NAME="setupConfigFile Coverage Results" MODIFIED="1532587456942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFiles.coverage" NAME="setupConfigFiles Coverage Results" MODIFIED="1531229588230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1532603880388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1532609758908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1532589663453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readRepositories.coverage" NAME="readRepositories Coverage Results" MODIFIED="1532586715496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
   </component>
@@ -63,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+            <state relative-caret-position="515">
+              <caret line="186" column="38" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -75,11 +75,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csvManipulation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Wikipedia-Language-Olga-master_views.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Language-Olga-master_views.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="csvManipulation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="379">
+              <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -151,8 +156,8 @@
         <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/myfile.csv" />
         <option value="$PROJECT_DIR$/gh_traffic/CSV_Files/binderhub_views.csv" />
-        <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" />
+        <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
       </list>
     </option>
   </component>
@@ -188,17 +193,6 @@
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
               <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
               <item name="DataRetrieval" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
-              <item name="CSV_Files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +371,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49971864" weight="0.32908913" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.17416318" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2839958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4958159" weight="0.39772728" />
@@ -401,7 +395,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Visualization/terracegarden_h0.png" />
     <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/Hierarchical_nested_SBM_views_histogram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -630,22 +623,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
+    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Language-Olga-master_views.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+        <state relative-caret-position="379">
+          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="35" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
+    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="515">
+          <caret line="186" column="38" selection-start-line="186" selection-start-column="38" selection-end-line="186" selection-end-column="38" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

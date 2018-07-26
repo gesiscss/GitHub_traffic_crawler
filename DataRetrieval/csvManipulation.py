@@ -2,6 +2,7 @@ import csv
 from DataRetrieval import readJson
 import pandas as pd
 import os
+import operator
 
 CSV_FOLDER = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\\"
 
@@ -57,5 +58,16 @@ def writeToCSVFile():
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
         df.to_csv(nameOfTheFile, sep='\t', encoding='utf-8', index=False)
 
-writeToCSVFile()
+def totalNumberOfViewDictionary():
+    csvFiles = giveFullPandaFiles()
+    dictionary = []  # dictionary that will consist only of file name and value:sum of views
+    for csvFile, df in csvFiles:
+        dictionary.append((csvFile, df['count'].sum()))
+    return dictionary
+
+def sortAndReturnRepositoriesByViews():
+    sorted_x = sorted(totalNumberOfViewDictionary(), key=operator.itemgetter(1), reverse=True)
+    return sorted_x
+
+
 

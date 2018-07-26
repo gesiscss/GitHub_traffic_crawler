@@ -107,11 +107,12 @@ def testPlotterHistogram2():
 
 
 def savePlotAsAnImage(plt, name, type):
+
     newpath = IMAGES_FOLDER + "\\" + type + "\\"
     if not os.path.exists(newpath):
         os.makedirs(newpath)
     fullPathAndName = newpath + str(name) + "_" + type + ".png"
-    plt.savefig(fullPathAndName)
+    plt.savefig(fullPathAndName, bbox_inches='tight')
 
 
 def mergePngFiles(type):
@@ -149,6 +150,8 @@ def visualizeCSV():
 
     for key, value in pandaFiles:
 
+        print(key)
+
         name = key
         df = value
 
@@ -175,8 +178,27 @@ def visualizeCSV():
 
             title = "Info from " + timestampValues[0] + " to " + timestampValues[-1] + " \nfor " + " : " + name
             plt.title(title)
-            savePlotAsAnImage(plt, name=name, type='cumulative')
+            savePlotAsAnImage(plt, name=name, type='')
 
+def histogramMostViewedRepositories():
+
+    repositories = csvManipulation.sortAndReturnRepositoriesByViews()
+
+    title = "Data from: 29th June - today"
+    y = [item[1] for item in repositories][0:8]
+    x = [item[0] for item in repositories][0:8]
+
+    x_pos = np.arange(len(x))
+    fig, ax = plt.subplots()
+
+    ax.barh(x_pos, y, align='center')
+    ax.set_yticks(x_pos)
+    ax.set_yticklabels(x)
+    ax.invert_yaxis()  # labels read top-to-bottom
+    ax.set_xlabel('Views')
+    plt.title(title)
+
+    savePlotAsAnImage(plt, name='TopRepositories', type='histogram')
 
 # def runPlotForEveryRepository():
 
@@ -185,4 +207,6 @@ def visualizeCSV():
 # testPlotterHistogram()
 # mergePngFiles("cumulative")
 
-visualizeCSV()
+#visualizeCSV()
+
+histogramMostViewedRepositories()
