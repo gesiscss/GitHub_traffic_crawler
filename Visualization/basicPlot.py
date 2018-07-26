@@ -116,7 +116,7 @@ def savePlotAsAnImage(plt, name, type):
 
 
 def mergePngFiles(type):
-    images_list = specialList = readJson.findPngFiles(type)
+    images_list = readJson.findPngFiles(type)
     imgs = [Image.open(i) for i in images_list]
     dimension = int(math.sqrt(math.ceil(len(images_list))))
     listOfHorizontalImages = []
@@ -205,8 +205,8 @@ def histogramMostViewedRepositories():
 
 # testPlotterCumulativeCount()
 # testPlotterHistogram()
-# mergePngFiles("cumulative")
+mergePngFiles("cumulative")
 
 #visualizeCSV()
 
-histogramMostViewedRepositories()
+#histogramMostViewedRepositories()
