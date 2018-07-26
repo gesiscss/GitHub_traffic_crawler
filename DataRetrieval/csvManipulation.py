@@ -14,8 +14,9 @@ def giveFullPandaFiles(): #return list of tuples with format : (path, concatenat
     cumulativeValue = 0
 
     for key, value in readJson.findJsonFiles().items():
-        temporaryPath = readJson.getShortName2(key)[0] + "_" + readJson.getShortName2(key)[1]
-        if(isMonthlyJsonFile(key)==True):
+        category = readJson.getShortName2(key)[1]
+        temporaryPath = readJson.getShortName2(key)[0] + "_" + category
+        if(category=="views" and isMonthlyJsonFile(key)==True):
 
             tuple = (temporaryPath, [value])
             #if its equal to the previous one
@@ -57,5 +58,4 @@ def writeToCSVFile():
         df.to_csv(nameOfTheFile, sep='\t', encoding='utf-8', index=False)
 
 writeToCSVFile()
-
 

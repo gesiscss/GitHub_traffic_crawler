@@ -4,38 +4,35 @@
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_clones_cumulative.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Hierarchical_nested_SBM_clones_cumulative.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Hierarchical_nested_SBM_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Hierarchical_nested_SBM_views_cumulative.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/WikiConflict_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/WikiConflict_views_cumulative.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_clones_cumulative.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/introduction_networkx_clones_cumulative.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/introduction_networkx_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/introduction_networkx_views_cumulative.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/kubespawner_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/kubespawner_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_clones_cumulative.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/promoss_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/promoss_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_clones_cumulative.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/GitHub_traffic_crawler_clones.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/GitHub_traffic_crawler_clones.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/GitHub_traffic_crawler_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/GitHub_traffic_crawler_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/Hierarchical_nested_SBM_clones.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/Hierarchical_nested_SBM_clones.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/Hierarchical_nested_SBM_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/Hierarchical_nested_SBM_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/PythonDataScienceHandbook_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/PythonDataScienceHandbook_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/WikiConflict_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/WikiConflict_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Language-Olga-master_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Language-Olga-master_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Politician-Network_clones.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Politician-Network_clones.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Politician-Network_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Politician-Network_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/binderhub_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/binderhub_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/image-gender-inference_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/image-gender-inference_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/introduction_networkx_clones.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/introduction_networkx_clones.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/introduction_networkx_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/introduction_networkx_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/jhub_shibboleth_auth_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/jhub_shibboleth_auth_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/kubespawner_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/kubespawner_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/orc_clones.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/orc_clones.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/orc_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/orc_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/promoss_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/promoss_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/ptm_clones.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/ptm_clones.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/ptm_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/ptm_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/wiki-download-parse-page-views_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/wiki-download-parse-page-views_views.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/workshop_girls_day_views.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/workshop_girls_day_views.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/GitHub_traffic_crawler_clones.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/Hierarchical_nested_SBM_clones.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Politician-Network_clones.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/introduction_networkx_clones.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/orc_clones.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/ptm_clones.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,10 +42,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GesisTraffic$csvManipulation.coverage" NAME="csvManipulation Coverage Results" MODIFIED="1532602836189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$csvManipulation.coverage" NAME="csvManipulation Coverage Results" MODIFIED="1532603803888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFile.coverage" NAME="setupConfigFile Coverage Results" MODIFIED="1532587456942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFiles.coverage" NAME="setupConfigFiles Coverage Results" MODIFIED="1531229588230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1532602903192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1532603880388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1532589663453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readRepositories.coverage" NAME="readRepositories Coverage Results" MODIFIED="1532586715496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
   </component>
@@ -69,10 +66,22 @@
       <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="147" column="47" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
+            <state relative-caret-position="226">
+              <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csvManipulation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,36 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csvManipulation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workshop_girls_day_views.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/workshop_girls_day_views.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wikipedia-Politician-Network_views.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Politician-Network_views.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -644,16 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="147" column="47" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/binderhub_views.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -661,10 +630,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="296">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

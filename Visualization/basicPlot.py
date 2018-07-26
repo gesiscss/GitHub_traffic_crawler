@@ -163,7 +163,10 @@ def visualizeCSV():
             timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
             example = df.ix[:, 'count']
             test = example.cumsum()
+
             plt.figure();
+            frame = plt.gca()
+            frame.axes.get_xaxis().set_visible(False)
             test.plot();
             plt.legend(loc='best')
 
