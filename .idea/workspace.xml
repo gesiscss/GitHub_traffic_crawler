@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/crawlData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRetrieval/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/GitHub_traffic_crawler/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/clones/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/clones/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Hierarchical_nested_SBM/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Language-Olga-master/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Language-Olga-master/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/paths/2018-07-10.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/paths/2018-07-10.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/introduction_networkx/clones/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/introduction_networkx/clones/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/introduction_networkx/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/introduction_networkx/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/jhub_shibboleth_auth/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/jhub_shibboleth_auth/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/kubespawner/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/orc/clones/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/orc/clones/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/orc/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/orc/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/ptm/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/ptm/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/wiki-download-parse-page-views/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/wiki-download-parse-page-views/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-07.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -95,14 +76,23 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="crawlData.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crawlData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawlData.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -156,7 +146,6 @@
         <option value="$PROJECT_DIR$/gh_traffic/config.ini" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFiles.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/setup.bat" />
         <option value="$PROJECT_DIR$/gh_traffic/configFiles/GitHub_traffic_crawler_config.ini" />
         <option value="$PROJECT_DIR$/gh_traffic/configFiles/Wikipedia-Language-Olga-master_config.ini" />
@@ -184,6 +173,7 @@
         <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
         <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
         <option value="$PROJECT_DIR$/crawlData.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -196,7 +186,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="1928" />
     <option name="height" value="1170" />
@@ -385,9 +375,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8713389" visible="true" weight="0.41003788" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8713389" visible="true" weight="0.41003788" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23901674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23901674" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2839958" />
@@ -415,9 +405,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/repo2docker_config.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/wiki_history_config.ini">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -611,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -628,9 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Full_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -641,13 +625,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Full_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawlData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
