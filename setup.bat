@@ -22,3 +22,6 @@ github_get_traffic -c gh_traffic/configFiles/Hierarchical_nested_SBM_config.ini 
 github_get_traffic -c gh_traffic/configFiles/GitHub_traffic_crawler_config.ini -o gh_traffic/Repositories/GitHub_traffic_crawler
 github_get_traffic -c gh_traffic/configFiles/introduction_networkx_config.ini -o gh_traffic/Repositories/introduction_networkx
 github_get_traffic -c gh_traffic/configFiles/wikiwho_interactions_config.ini -o gh_traffic/Repositories/wikiwho_interactions
+github_get_traffic -c gh_traffic/configFiles/Homophilic-Ntw-Viz_config.ini -o gh_traffic/Repositories/Homophilic-Ntw-Viz
+github_get_traffic -c gh_traffic/configFiles/flow_config.ini -o gh_traffic/Repositories/flow
+github_get_traffic -c gh_traffic/configFiles/zero-to-jupyterhub-k8s_config.ini -o gh_traffic/Repositories/zero-to-jupyterhub-k8s

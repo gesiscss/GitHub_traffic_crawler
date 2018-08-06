@@ -135,12 +135,11 @@ def mergePngFiles(type):
     min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs[0:dimension]])[0][1]
     img_merge = np.vstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs))
     img_merge = Image.fromarray(img_merge)
-    img_merge.save("Full_" + type + ".png")
+    img_merge.save(os.getcwd()+"\Visualization\Images\Full_" + type + ".png")
 
-    dirTest = os.path.dirname(os.getcwd()) + "\Visualization\\"
-    for file in os.listdir(os.path.dirname(dirTest)):
+    #dirTest = os.path.dirname(os.getcwd()) + "\GesisTraffic\Visualization\\"
+    for file in os.listdir(os.path.dirname(os.getcwd()+"\GesisTraffic")):
         if file.endswith('temporary.png'):
-            print(file)
             os.remove(file)
 
 

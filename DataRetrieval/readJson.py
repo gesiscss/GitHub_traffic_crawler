@@ -44,7 +44,8 @@ def findPngFiles(type):
     # print(type.value)
     # raise TypeError('break')
     #gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\Visualization\Images\cumulative\\"
-    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\Visualization\Images\\"+type+"\\"
+    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\GesisTraffic\Visualization\Images\\"+type+"\\"
+    print(gesisTrafficDirectory)
     pathlist = Path(gesisTrafficDirectory).glob('**/*.png')
     pngFileList = []
 
