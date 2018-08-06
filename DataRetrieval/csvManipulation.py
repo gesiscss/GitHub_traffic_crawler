@@ -3,6 +3,7 @@ from DataRetrieval import readJson
 import pandas as pd
 import os
 import operator
+from DataRetrieval import readRepositories as rr
 
 CSV_FOLDER = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\\"
 
@@ -58,6 +59,18 @@ def writeToCSVFile():
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
         df.to_csv(nameOfTheFile, sep='\t', encoding='utf-8', index=False)
 
+def writeToCSVFileContributors():
+    df = rr.getRequestContributors()
+
+    if df is not None:
+        nameOfTheFile = CSV_FOLDER + "\Contributors.csv"
+        with open(nameOfTheFile, 'wb') as csvfile:
+            filewriter = csv.writer(csvfile, delimiter='\t',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        df.to_csv(nameOfTheFile, sep='\t', encoding='utf-8', index=False)
+
+    return df
+
 def totalNumberOfViewDictionary():
     csvFiles = giveFullPandaFiles()
     dictionary = []  # dictionary that will consist only of file name and value:sum of views
@@ -70,4 +83,4 @@ def sortAndReturnRepositoriesByViews():
     return sorted_x
 
 
-
+#writeToCSVFileContributors()

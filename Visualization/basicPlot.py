@@ -149,7 +149,7 @@ def visualizeCSV():
 
     for key, value in pandaFiles:
 
-        print(key)
+        #print(key)
 
         name = key
         df = value
@@ -199,13 +199,41 @@ def histogramMostViewedRepositories():
 
     savePlotAsAnImage(plt, name='TopRepositories', type='histogram')
 
-# def runPlotForEveryRepository():
-
 
 # testPlotterCumulativeCount()
 # testPlotterHistogram()
-mergePngFiles("cumulative")
+#mergePngFiles("cumulative")
 
 #visualizeCSV()
 
 #histogramMostViewedRepositories()
+
+def gitHubUsersVisualization():
+
+    df = csvManipulation.writeToCSVFileContributors()
+    columnsName = ['repName', 'noOfTotalContributions', 'topContributor', 'noOfTopContributions',
+                   '2ndContr', 'noOf2ndContr']
+    #df = pd.read_csv("../gh_traffic/CSV_Files/Contributors/contributors.csv", sep='\t', header=None)
+
+    if df is None: return
+
+    columns = list(df)
+    fig, ax = plt.subplots()
+    ax.axis('tight')
+    ax.axis('off')
+    the_table = ax.table(cellText=df.values, #cellColours=colors,
+                         colLabels=columnsName, loc='center')
+    [(the_table._cells[(i,2)].set_facecolor("#FF0000"),
+      the_table._cells[(i,4)].set_facecolor("#FF4500"))
+     for i in range(1,len(df.values)+1)]
+    savePlotAsAnImage(plt, name="Contributors", type= "table")
+
+# def runPlotForEveryRepository():
+def runVisualization():
+    visualizeCSV()
+    histogramMostViewedRepositories()
+
+def testMethod():
+    print("Test")
+gitHubUsersVisualization()
+#testMethod()
