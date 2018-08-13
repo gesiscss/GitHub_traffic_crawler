@@ -196,7 +196,6 @@ def visualizeGeneralMethod(type):
                  secondBestValues = [df.ix[index2, 'referrer'], df.ix[index2, 'count'], df.ix[index2, 'uniques']]
 
             columnRefererr = [key, df.ix[index1, 'referrer'], df.ix[index1, 'count'], df.ix[index1, 'uniques']]
-
             columnRefererr = columnRefererr+secondBestValues
             referrersTable.append(columnRefererr)
 
@@ -217,8 +216,6 @@ def visualizeGeneralMethod(type):
         print("Referrers table: ",referrersTable)
         columnsName = ['repName', 'Strongest referrer', 'count', 'uniques', '2nd strongest referrer',
                         'count', 'uniques']
-
-
 
         fig, ax = plt.subplots(figsize=(8, 1),
                                dpi=300)
@@ -242,10 +239,10 @@ def visualizeGeneralMethod(type):
 def histogramViewedRepositories(pandaFiles, reversed = False):
 
     repositories = csvMan.sortAndReturnRepositories(pandaFiles, reversed)
-    namePart = "Top"
+    namePart = "Most"
     if(reversed == True): namePart = "Least"
 
-    title = "Data from: 29th June - today"
+    title = namePart + " viewed repositories"
     y = [item[1] for item in repositories][0:8]
     x = [item[0] for item in repositories][0:8]
 
@@ -264,10 +261,10 @@ def histogramViewedRepositories(pandaFiles, reversed = False):
 def histogramClonedRepositories(pandaFiles, reversed = False):
 
     repositories = csvMan.sortAndReturnRepositories(pandaFiles, reversed)
-    namePart = "Top"
+    namePart = "Most"
     if(reversed == True): namePart = "Least"
 
-    title = "Data from: 29th June - today"
+    title = namePart + " cloned repositories"
     y = [item[1] for item in repositories][0:8]
     x = [item[0] for item in repositories][0:8]
 
@@ -320,4 +317,4 @@ def runVisualization():
 #histogramMostClonedRepositories()
 #histogramMostViewedRepositories()
 
-visualizeGeneralMethod("referrers")
+visualizeGeneralMethod("views")
