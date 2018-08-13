@@ -43,9 +43,6 @@ def giveFullPandaFiles(type="views"): #return list of tuples with format : (path
             if value.empty: continue
 
             value['Repository_name'] = readJson.getShortName(key)
-            # cols = value.columns.tolist()
-            # cols = cols[-1:] + cols[:-1]
-            # value = value[cols]
 
             if not((temporaryKey==tuple[0])):
                 temporaryListOfDictionaries.append(tuple)
@@ -102,14 +99,15 @@ def writeToCSVFileContributors(df):
 
     return df
 
-def sortAndReturnRepositories(csvFiles):
+def sortAndReturnRepositories(csvFiles, inverse = False):
     #csvFiles = giveFullPandaFiles(type=by)
     dictionary = []  # dictionary that will consist only of file name and value:sum of views
 
     for csvFile, df in csvFiles:
         dictionary.append((csvFile, df['count'].sum()))
 
-    sorted_x = sorted(dictionary, key=operator.itemgetter(1), reverse=True)
+    if (inverse==True): sorted_x = sorted(dictionary, key=operator.itemgetter(1), reverse=False)
+    else: sorted_x = sorted(dictionary, key=operator.itemgetter(1), reverse=True)
     return sorted_x
 
 

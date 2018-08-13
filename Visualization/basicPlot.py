@@ -107,9 +107,9 @@ def testPlotterHistogram2():
     savePlotAsAnImage(plt, name=name, type='histogram')
 
 
-def savePlotAsAnImage(plt, name, type):
+def savePlotAsAnImage(plt, name, type, subtype=""):
 
-    newpath = IMAGES_FOLDER + type + "\\"
+    newpath = IMAGES_FOLDER + type + subtype+"\\"
     if not os.path.exists(newpath):
         os.makedirs(newpath)
     fullPathAndName = newpath + str(name) + "_" + type + ".png"
@@ -150,6 +150,7 @@ def visualizeGeneralMethod(type):
 
     pandaFiles = csvMan.giveFullPandaFiles(type=type)
     valuesReferrers = []
+    referrersTable = []
 
     values = [value for (key, value) in pandaFiles]
 
@@ -186,11 +187,26 @@ def visualizeGeneralMethod(type):
                 plt.title(title)
                 savePlotAsAnImage(plt, name=name, type="cumulative")
 
+        if (type == "referrers"):
+            twoStrongestIndices = list(df['count'].nlargest(2).index.values)
+            index1 = twoStrongestIndices[0]
+            index2 = 0
+            secondBestValues = ["","",""]
+            if(len(twoStrongestIndices)>1):
+                 secondBestValues = [df.ix[index2, 'referrer'], df.ix[index2, 'count'], df.ix[index2, 'uniques']]
+
+            columnRefererr = [key, df.ix[index1, 'referrer'], df.ix[index1, 'count'], df.ix[index1, 'uniques']]
+
+            columnRefererr = columnRefererr+secondBestValues
+            referrersTable.append(columnRefererr)
+
+
     if (type == "views"):
         print("\n\n\nMerging..\n\n\n")
         mergePngFiles(type="cumulative")
         print("\n\n\nTotal views..\n\n\n")
-        histogramMostViewedRepositories(pandaFiles)
+        histogramViewedRepositories(pandaFiles)
+        histogramViewedRepositories(pandaFiles, reversed = True)
         print("\n\n\Done.")
 
     if (type == "referrers"):
@@ -198,16 +214,36 @@ def visualizeGeneralMethod(type):
         nameOfTheFile = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\General\Referrers.csv"
         concatenatedPD.to_csv(nameOfTheFile, sep='\t', encoding='utf-8')
 
+        print("Referrers table: ",referrersTable)
+        columnsName = ['repName', 'Strongest referrer', 'count', 'uniques', '2nd strongest referrer',
+                        'count', 'uniques']
+
+
+
+        fig, ax = plt.subplots(figsize=(8, 1),
+                               dpi=300)
+        ax.axis('off')
+        the_table = ax.table(cellText=referrersTable,  # cellColours=colors,
+                             colLabels=columnsName, loc='center')
+        [(the_table._cells[(i, 1)].set_facecolor("#FF0000"),
+          the_table._cells[(i, 4)].set_facecolor("#FF4500"))
+         for i in range(1, len(referrersTable)+1)]
+        savePlotAsAnImage(plt, name="Referrers", type="table")
+
+
     if (type == "clones"):
         concatenatedPD = pd.concat(values)
         nameOfTheFile = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\General\Clones.csv"
         concatenatedPD.to_csv(nameOfTheFile, sep='\t', encoding='utf-8', index=False)
-        histogramMostClonedRepositories(pandaFiles)
+        histogramClonedRepositories(pandaFiles)
+        histogramClonedRepositories(pandaFiles, reversed=True)
 
 
-def histogramMostViewedRepositories(pandaFiles):
+def histogramViewedRepositories(pandaFiles, reversed = False):
 
-    repositories = csvMan.sortAndReturnRepositories(pandaFiles)
+    repositories = csvMan.sortAndReturnRepositories(pandaFiles, reversed)
+    namePart = "Top"
+    if(reversed == True): namePart = "Least"
 
     title = "Data from: 29th June - today"
     y = [item[1] for item in repositories][0:8]
@@ -223,12 +259,13 @@ def histogramMostViewedRepositories(pandaFiles):
     ax.set_xlabel('Views')
     plt.title(title)
 
-    savePlotAsAnImage(plt, name='TopRepositories_views', type='histogram')
+    savePlotAsAnImage(plt, name= namePart + 'Repositories_views', type='histogram', subtype='\\views')
 
-def histogramMostClonedRepositories(pandaFiles):
+def histogramClonedRepositories(pandaFiles, reversed = False):
 
-    repositories = csvMan.sortAndReturnRepositories(pandaFiles)
-    print(repositories)
+    repositories = csvMan.sortAndReturnRepositories(pandaFiles, reversed)
+    namePart = "Top"
+    if(reversed == True): namePart = "Least"
 
     title = "Data from: 29th June - today"
     y = [item[1] for item in repositories][0:8]
@@ -243,9 +280,7 @@ def histogramMostClonedRepositories(pandaFiles):
     ax.invert_yaxis()  # labels read top-to-bottom
     ax.set_xlabel('Clones')
     plt.title(title)
-
-    savePlotAsAnImage(plt, name='TopRepositories_clones', type='histogram')
-
+    savePlotAsAnImage(plt, name= namePart + 'Repositories_clones', type='histogram' , subtype="\clones")
 
 def gitHubUsersVisualization():
 
@@ -276,13 +311,13 @@ def gitHubUsersVisualization():
 
 def runVisualization():
     visualizeGeneralMethod()
-    histogramMostViewedRepositories()
+    histogramViewedRepositories()
 
-visualizeGeneralMethod(type="referrers")
+#visualizeGeneralMethod(type="referrers")
 #gitHubUsersVisualization()
 
 
 #histogramMostClonedRepositories()
 #histogramMostViewedRepositories()
 
-#visualizeGeneralMethod("views")
+visualizeGeneralMethod("referrers")
