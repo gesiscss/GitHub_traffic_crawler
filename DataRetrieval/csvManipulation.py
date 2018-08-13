@@ -5,23 +5,48 @@ import os
 import operator
 from DataRetrieval import readRepositories as rr
 
-CSV_FOLDER = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\\"
+CSV_FOLDER = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files"
 
-def giveFullPandaFiles(): #return list of tuples with format : (path, concatenated dataframe)
+def giveFullPandaFiles(type="views"): #return list of tuples with format : (path, concatenated dataframe)
     temporaryListOfDictionaries = []
     finalListOfDictionaries = []
     temporaryKey = ""
     listIterator = -1
-
     cumulativeValue = 0
 
     for key, value in readJson.findJsonFiles().items():
+
         category = readJson.getShortName2(key)[1]
         temporaryPath = readJson.getShortName2(key)[0] + "_" + category
-        if(category=="views" and isMonthlyJsonFile(key)==True):
 
+        if(type == category== "views" and isMonthlyFile(key)==True):
             tuple = (temporaryPath, [value])
-            #if its equal to the previous one
+            if not((temporaryKey==tuple[0])):
+                temporaryListOfDictionaries.append(tuple)
+                listIterator = listIterator + 1
+            else:
+                temporaryListOfDictionaries[listIterator][1].append(value)
+            temporaryKey = tuple[0]
+
+        if(type == category == "referrers"):
+            tuple = (temporaryPath, [value])
+            if value.empty: continue
+            if not((temporaryKey==tuple[0])):
+                temporaryListOfDictionaries.append(tuple)
+                listIterator = listIterator + 1
+            else:
+                temporaryListOfDictionaries[listIterator][1].append(value)
+            temporaryKey = tuple[0]
+
+        if(type == category == "clones" and isMonthlyFile(key)==False):
+            tuple = (temporaryPath, [value])
+            if value.empty: continue
+
+            value['Repository_name'] = readJson.getShortName(key)
+            # cols = value.columns.tolist()
+            # cols = cols[-1:] + cols[:-1]
+            # value = value[cols]
+
             if not((temporaryKey==tuple[0])):
                 temporaryListOfDictionaries.append(tuple)
                 listIterator = listIterator + 1
@@ -30,7 +55,12 @@ def giveFullPandaFiles(): #return list of tuples with format : (path, concatenat
             temporaryKey = tuple[0]
 
     for i,j in temporaryListOfDictionaries:
-        finalListOfDictionaries.append((i, pd.concat(j).reset_index(drop=True)))
+        concatenatedRows = pd.concat(j).reset_index(drop=True)
+        if(type=="referrers"):
+            concatenatedRows = concatenatedRows.groupby('referrer', as_index=False).sum()
+        if (type == "clones"):
+            concatenatedRows = concatenatedRows.groupby('Repository_name', as_index=False).sum()
+        finalListOfDictionaries.append((i, concatenatedRows))
 
     del temporaryListOfDictionaries[:]
     return finalListOfDictionaries
@@ -41,7 +71,7 @@ def concatDataFrameLists(list):
         cumulativeValue = df.iloc[[-1][0]]
         print(df, "\n\n\n")
 
-def isMonthlyJsonFile(jsonFile):
+def isMonthlyFile(jsonFile):
     lastPartName = readJson.getShortName2(jsonFile)[2]
     if (lastPartName.count('-')==1) :
         return True
@@ -59,11 +89,12 @@ def writeToCSVFile():
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
         df.to_csv(nameOfTheFile, sep='\t', encoding='utf-8', index=False)
 
-def writeToCSVFileContributors():
-    df = rr.getRequestContributors()
+def writeToCSVFileContributors(df):
+
+    nameOfTheFile = CSV_FOLDER + "\General\Contributions.csv"
+    print(nameOfTheFile)
 
     if df is not None:
-        nameOfTheFile = CSV_FOLDER + "\Contributors.csv"
         with open(nameOfTheFile, 'wb') as csvfile:
             filewriter = csv.writer(csvfile, delimiter='\t',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
@@ -71,15 +102,14 @@ def writeToCSVFileContributors():
 
     return df
 
-def totalNumberOfViewDictionary():
-    csvFiles = giveFullPandaFiles()
+def sortAndReturnRepositories(csvFiles):
+    #csvFiles = giveFullPandaFiles(type=by)
     dictionary = []  # dictionary that will consist only of file name and value:sum of views
+
     for csvFile, df in csvFiles:
         dictionary.append((csvFile, df['count'].sum()))
-    return dictionary
 
-def sortAndReturnRepositoriesByViews():
-    sorted_x = sorted(totalNumberOfViewDictionary(), key=operator.itemgetter(1), reverse=True)
+    sorted_x = sorted(dictionary, key=operator.itemgetter(1), reverse=True)
     return sorted_x
 
 

@@ -1,5 +1,6 @@
 from DataRetrieval import readJson
-from DataRetrieval import csvManipulation
+from DataRetrieval import csvManipulation as csvMan
+from DataRetrieval import readRepositories as rr
 import matplotlib as mat
 import matplotlib.pyplot as plt
 import matplotlib.dates as md
@@ -13,6 +14,7 @@ from datetime import datetime
 import sys
 from PIL import Image
 import math
+import csv
 
 from enum import Enum
 
@@ -40,7 +42,6 @@ def testPlotterCumulativeCount():
             continue
 
         timestampValues = df.values[:, 1]
-
         if (subcategory == 'views'):
             if (isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
                 timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
@@ -108,17 +109,18 @@ def testPlotterHistogram2():
 
 def savePlotAsAnImage(plt, name, type):
 
-    newpath = IMAGES_FOLDER + "\\" + type + "\\"
+    newpath = IMAGES_FOLDER + type + "\\"
     if not os.path.exists(newpath):
         os.makedirs(newpath)
     fullPathAndName = newpath + str(name) + "_" + type + ".png"
+    print("Saving picture: ", fullPathAndName)
     plt.savefig(fullPathAndName, bbox_inches='tight')
 
 
 def mergePngFiles(type):
     images_list = readJson.findPngFiles(type)
     imgs = [Image.open(i) for i in images_list]
-    dimension = int(math.sqrt(math.ceil(len(images_list))))
+    dimension = math.ceil(math.sqrt(math.ceil(len(images_list))))
     listOfHorizontalImages = []
 
     for k in range(dimension):
@@ -135,7 +137,8 @@ def mergePngFiles(type):
     min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs[0:dimension]])[0][1]
     img_merge = np.vstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs))
     img_merge = Image.fromarray(img_merge)
-    img_merge.save(os.getcwd()+"\Visualization\Images\Full_" + type + ".png")
+    path = os.getcwd()+"\Images\Full_" + type + ".png"
+    img_merge.save(path)
 
     #dirTest = os.path.dirname(os.getcwd()) + "\GesisTraffic\Visualization\\"
     for file in os.listdir(os.path.dirname(os.getcwd()+"\GesisTraffic")):
@@ -143,45 +146,68 @@ def mergePngFiles(type):
             os.remove(file)
 
 
-def visualizeCSV():
+def visualizeGeneralMethod(type):
 
-    pandaFiles = csvManipulation.giveFullPandaFiles()
+    pandaFiles = csvMan.giveFullPandaFiles(type=type)
+    valuesReferrers = []
+
+    values = [value for (key, value) in pandaFiles]
 
     for key, value in pandaFiles:
 
-        #print(key)
+        if (type == "referrers"):
+            value['Repository_name'] = key
+            cols = value.columns.tolist()
+            cols = cols[-1:] + cols[:-1]
+            value = value[cols]
+            valuesReferrers.append(value)
 
         name = key
         df = value
 
-        timestampValues = df.values[:, 1]
         if (df.values.size == 0):
             print(name, " has empty values")
             continue
 
-        timestampValues = df.values[:, 1]
+        if (type == "views"):
+            timestampValues = df.values[:, 1]
+            if (isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
+                timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
+                example = df.ix[:, 'count']
+                test = example.cumsum()
 
-        if (isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
-            timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
-            example = df.ix[:, 'count']
-            test = example.cumsum()
+                plt.figure();
+                frame = plt.gca()
+                frame.axes.get_xaxis().set_visible(False)
+                test.plot();
+                plt.legend(loc='best')
 
-            plt.figure();
-            frame = plt.gca()
-            frame.axes.get_xaxis().set_visible(False)
-            test.plot();
-            plt.legend(loc='best')
+                title = "Info from " + timestampValues[0] + " to " + timestampValues[-1] + " \nfor " + " : " + name
+                plt.title(title)
+                savePlotAsAnImage(plt, name=name, type="cumulative")
 
-            # fig, ax = plt.subplots()
-            # ax.tick_params(labelbottom=False)
+    if (type == "views"):
+        print("\n\n\nMerging..\n\n\n")
+        mergePngFiles(type="cumulative")
+        print("\n\n\nTotal views..\n\n\n")
+        histogramMostViewedRepositories(pandaFiles)
+        print("\n\n\Done.")
 
-            title = "Info from " + timestampValues[0] + " to " + timestampValues[-1] + " \nfor " + " : " + name
-            plt.title(title)
-            savePlotAsAnImage(plt, name=name, type='')
+    if (type == "referrers"):
+        concatenatedPD = pd.concat(valuesReferrers)
+        nameOfTheFile = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\General\Referrers.csv"
+        concatenatedPD.to_csv(nameOfTheFile, sep='\t', encoding='utf-8')
 
-def histogramMostViewedRepositories():
+    if (type == "clones"):
+        concatenatedPD = pd.concat(values)
+        nameOfTheFile = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\General\Clones.csv"
+        concatenatedPD.to_csv(nameOfTheFile, sep='\t', encoding='utf-8', index=False)
+        histogramMostClonedRepositories(pandaFiles)
 
-    repositories = csvManipulation.sortAndReturnRepositoriesByViews()
+
+def histogramMostViewedRepositories(pandaFiles):
+
+    repositories = csvMan.sortAndReturnRepositories(pandaFiles)
 
     title = "Data from: 29th June - today"
     y = [item[1] for item in repositories][0:8]
@@ -197,29 +223,49 @@ def histogramMostViewedRepositories():
     ax.set_xlabel('Views')
     plt.title(title)
 
-    savePlotAsAnImage(plt, name='TopRepositories', type='histogram')
+    savePlotAsAnImage(plt, name='TopRepositories_views', type='histogram')
 
+def histogramMostClonedRepositories(pandaFiles):
 
-# testPlotterCumulativeCount()
-# testPlotterHistogram()
-#mergePngFiles("cumulative")
+    repositories = csvMan.sortAndReturnRepositories(pandaFiles)
+    print(repositories)
 
-#visualizeCSV()
+    title = "Data from: 29th June - today"
+    y = [item[1] for item in repositories][0:8]
+    x = [item[0] for item in repositories][0:8]
 
-#histogramMostViewedRepositories()
+    x_pos = np.arange(len(x))
+    fig, ax = plt.subplots()
+
+    ax.barh(x_pos, y, align='center', color='r')
+    ax.set_yticks(x_pos)
+    ax.set_yticklabels(x)
+    ax.invert_yaxis()  # labels read top-to-bottom
+    ax.set_xlabel('Clones')
+    plt.title(title)
+
+    savePlotAsAnImage(plt, name='TopRepositories_clones', type='histogram')
+
 
 def gitHubUsersVisualization():
 
-    df = csvManipulation.writeToCSVFileContributors()
+    df = rr.getRequestContributors()
+    csvMan.writeToCSVFileContributors(df)
     columnsName = ['repName', 'noOfTotalContributions', 'topContributor', 'noOfTopContributions',
                    '2ndContr', 'noOf2ndContr']
     #df = pd.read_csv("../gh_traffic/CSV_Files/Contributors/contributors.csv", sep='\t', header=None)
 
-    if df is None: return
+    if df is None:
+        return
+        #hard code, testing the visualization
+        df = pd.DataFrame(data=[], columns=columnsName)
+        df.loc[0] = [1, 2, 3, 4, 5, 6]
+        df.loc[1] = [1, 55, 3, 4, 5, 9]
+        df.loc[2] = [1, 77, 3, 4, 5, 6]
 
     columns = list(df)
-    fig, ax = plt.subplots()
-    ax.axis('tight')
+    fig, ax = plt.subplots(figsize=(8, 1), dpi=300) #plt.subplots()   figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
+    #ax.axis('tight')
     ax.axis('off')
     the_table = ax.table(cellText=df.values, #cellColours=colors,
                          colLabels=columnsName, loc='center')
@@ -228,12 +274,15 @@ def gitHubUsersVisualization():
      for i in range(1,len(df.values)+1)]
     savePlotAsAnImage(plt, name="Contributors", type= "table")
 
-# def runPlotForEveryRepository():
 def runVisualization():
-    visualizeCSV()
+    visualizeGeneralMethod()
     histogramMostViewedRepositories()
 
-def testMethod():
-    print("Test")
-gitHubUsersVisualization()
-#testMethod()
+visualizeGeneralMethod(type="referrers")
+#gitHubUsersVisualization()
+
+
+#histogramMostClonedRepositories()
+#histogramMostViewedRepositories()
+
+#visualizeGeneralMethod("views")

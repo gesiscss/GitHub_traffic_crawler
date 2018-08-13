@@ -27,7 +27,7 @@ def readJsonPanda(jsonPath):
 # jsonContent is in panda-Dataframe format
 def findJsonFiles():
 
-    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\gh_traffic\Repositories"
+    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "/gh_traffic/Repositories"
     pathlist = Path(gesisTrafficDirectory).glob('**/*.json')
     jsonFileAndContentInPandaFormat = {}
 
@@ -38,22 +38,12 @@ def findJsonFiles():
 
 def findPngFiles(type):
 
-    # if not isinstance(type, Enum):
-    #     raise TypeError('direction must be an instance of Direction Enum')
-    #
-    # print(type.value)
-    # raise TypeError('break')
-    #gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\Visualization\Images\cumulative\\"
-    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\GesisTraffic\Visualization\Images\\"+type+"\\"
-    #print(gesisTrafficDirectory)
+    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\Visualization\Images\\"+type
     pathlist = Path(gesisTrafficDirectory).glob('**/*.png')
-    pngFileList = []
 
-    return [str(x) for x in pathlist]
-    #
-    # for path in pathlist:
-    #     pngFileList.append = str(path)
-    # return pngFileList
+    pathlistFinal = [str(x) for x in pathlist]
+
+    return pathlistFinal
 
 def printJsonPaths():
     for key, value in findJsonFiles().items():
@@ -74,12 +64,18 @@ def giveDataFrameExample():
 
 def getShortName(path):
     #this gets called twice, see why
-    substringList = path.split("\\")[-3:len(path)-1:]
+    if (path.__contains__("\\")):
+        substringList = path.split("\\")[-3:len(path)-1:]
+    else:
+        substringList = path.split("/")[-3:len(path) - 1:]
     return str(substringList[0]+"_"+substringList[1].split(".json")[0])
 
 def getShortName2(path):
     #this gets called twice, see why
-    substringList = path.split("\\")[-3:len(path)-1:]
+    if(path.__contains__("\\")):
+        substringList = path.split("\\")[-3:len(path)-1:]
+    else:
+        substringList = path.split("/")[-3:len(path) - 1:]
     return substringList
 
 def dataFrameManipulationTest():
