@@ -27,7 +27,7 @@ def readJsonPanda(jsonPath):
 # jsonContent is in panda-Dataframe format
 def findJsonFiles():
 
-    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "/gh_traffic/Repositories"
+    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "/GesisTraffic/gh_traffic/Repositories"
     pathlist = Path(gesisTrafficDirectory).glob('**/*.json')
     jsonFileAndContentInPandaFormat = {}
 
@@ -38,9 +38,8 @@ def findJsonFiles():
 
 def findPngFiles(type):
 
-    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\Visualization\Images\\"+type
+    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "\GesisTraffic\Visualization\Images\\"+type
     pathlist = Path(gesisTrafficDirectory).glob('**/*.png')
-
     pathlistFinal = [str(x) for x in pathlist]
 
     return pathlistFinal
@@ -88,19 +87,7 @@ def giveJsonFilePerRepository():
     listOfJsonFilePaths = []
     counter = 0
     for key, value in findJsonFiles().items():
-
         key = getShortName2(key)
-        # dictionaryInstance = { key : value }
-        # indexOfListElement = isThereKeyDictionaryValueInList(listOfJsonFilePaths, key)
-        # if(indexOfListElement==-1):
-        #     listOfJsonFilePaths.append(dictionaryInstance)
-        #else:
-            #print("Value is: ",value)
-            #listOfJsonFilePaths[indexOfListElement].append(value)
-        #
-        #     listOfJsonFilePaths
-        # print("Key", key)
-        #listOfJsonFilePaths[counter].append(value)
     return listOfJsonFilePaths
 
 def isThereKeyDictionaryValueInList(list, key):
@@ -113,29 +100,6 @@ def isThereKeyDictionaryValueInList(list, key):
         counter = counter + 1
     return -1
 
-
-
-
-#def updatePandaFiles():
-
-
-
-
-
-#def updateCSV(fileName):
-
-
-#print(getShortName("C:\\Users\\popovirr\\PycharmProjects\\GesisTraffic\\gh_traffic\\Repositories\\repo2docker\\clones\\2018-07-10.json"))
-
-#printJsonPaths()
-
-# for key, value in findJsonFiles().items():
-#     print(getShortName(key))
-
-
-#list = giveJsonFilePerRepository()
-#isThereKeyDictionaryValueInList(list,'workshop_girls_day_views')
-#print(list)
 
 
 

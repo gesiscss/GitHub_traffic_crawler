@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataRetrieval/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/Full_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/Full_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/flow_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/flow_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/clones/LeastRepositories_clones_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/clones/LeastRepositories_clones_histogram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/clones/MostRepositories_clones_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/clones/MostRepositories_clones_histogram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/views/LeastRepositories_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/views/LeastRepositories_views_histogram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/views/MostRepositories_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/views/MostRepositories_views_histogram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/table/Contributors_table.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/table/Contributors_table.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Visualization/Images/table/Referrers_table.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/table/Referrers_table.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawlData.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Clones.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Clones.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Contributions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Contributions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Referrers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Referrers.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Language-Olga-master/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Language-Olga-master/views/2018-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/flow/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/flow/views/2018-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/jhub_shibboleth_auth/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/jhub_shibboleth_auth/views/2018-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/orc/clones/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/orc/clones/2018-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/orc/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/orc/views/2018-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/wiki-download-parse-page-views/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/wiki-download-parse-page-views/views/2018-08.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-08.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,30 +51,18 @@
     <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFile.coverage" NAME="setupConfigFile Coverage Results" MODIFIED="1533541434602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$setupConfigFiles.coverage" NAME="setupConfigFiles Coverage Results" MODIFIED="1531229588230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$GesisTraffic.coverage" NAME="GesisTraffic Coverage Results" MODIFIED="1533567064826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$crawlData.coverage" NAME="crawlData Coverage Results" MODIFIED="1533565894757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1534156166344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$crawlData.coverage" NAME="crawlData Coverage Results" MODIFIED="1534760209309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GesisTraffic$basicPlot.coverage" NAME="basicPlot Coverage Results" MODIFIED="1534770093400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readJson.coverage" NAME="readJson Coverage Results" MODIFIED="1532589663453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
     <SUITE FILE_PATH="coverage/GesisTraffic$readRepositories.coverage" NAME="readRepositories Coverage Results" MODIFIED="1533567022727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataRetrieval" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="csvManipulation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
+            <state relative-caret-position="-1775">
+              <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -47,14 +70,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Referrers_table.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/Images/table/Referrers_table.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="crawler.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawler.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Full_cumulative.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Visualization/Images/Full_cumulative.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="readJson.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawlData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawlData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setupConfigFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="48" selection-start-column="48" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csvManipulation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readRepositories.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -87,8 +162,9 @@
       <find>getRequestContributors</find>
       <find>valuesHardCode</find>
       <find>mergePngFiles</find>
-      <find>cumulative</find>
       <find>path</find>
+      <find>ref</find>
+      <find>cumulative</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,17 +199,17 @@
         <option value="$PROJECT_DIR$/test.bat" />
         <option value="$PROJECT_DIR$/run.bat" />
         <option value="$PROJECT_DIR$/a" />
-        <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFile.py" />
         <option value="$PROJECT_DIR$/gh_traffic/CSV_Files/Contributors/contributors.csv" />
         <option value="$PROJECT_DIR$/text" />
-        <option value="$PROJECT_DIR$/crawlData.py" />
-        <option value="$PROJECT_DIR$/crawler.ipynb" />
         <option value="$USER_HOME$/Downloads/contributors.json" />
-        <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/readRepositories.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" />
+        <option value="$PROJECT_DIR$/crawlData.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFile.py" />
         <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
+        <option value="$PROJECT_DIR$/crawler.ipynb" />
       </list>
     </option>
   </component>
@@ -147,8 +223,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1928" />
+    <option name="width" value="1920" />
     <option name="height" value="1170" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -157,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +242,7 @@
             <path>
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
               <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
-              <item name="gh_traffic" type="462c0819:PsiDirectoryNode" />
+              <item name="DataRetrieval" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
@@ -181,10 +255,26 @@
               <item name="Visualization" type="462c0819:PsiDirectoryNode" />
               <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
+              <item name="Visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
+              <item name="histogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GesisTraffic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GesisTraffic" type="462c0819:PsiDirectoryNode" />
+              <item name="Visualization" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
+              <item name="histogram" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,8 +420,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.basicPlot" />
-        <item itemvalue="Python.readRepositories" />
         <item itemvalue="Python.crawlData" />
+        <item itemvalue="Python.readRepositories" />
         <item itemvalue="Python.csvManipulation" />
         <item itemvalue="Python.setupConfigFile" />
       </list>
@@ -351,27 +441,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1928" height="1170" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1170" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.13441423" side_tool="true" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.13865547" side_tool="true" visible="true" weight="0.23484848" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86558574" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8613445" visible="true" weight="0.23484848" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23901674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.240021" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.25470713" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2552521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4916318" weight="0.39772728" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.64600843" weight="0.39772728" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49971864" weight="0.32908913" />
@@ -392,74 +483,17 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Hierarchical_nested_SBM_views.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/GitHub_traffic_crawler_views.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Wikipedia-Language-Olga-master_views.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/introduction_networkx_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/Hierarchical_nested_SBM_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/Repositories/binderhub/paths/2018-07-10.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getData.bat" />
     <entry file="file://$PROJECT_DIR$/a" />
     <entry file="file://$PROJECT_DIR$/test.bat" />
-    <entry file="file://$PROJECT_DIR$/setup.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Full_cumulative.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Full_cumulative.png" />
     <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/binderhub_views.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -482,20 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawlData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -528,47 +548,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/views/ptm_views_views.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/views/wiki-download-parse-page-views_views_views.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/views/ptm_views_views.png" />
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/views/wiki-download-parse-page-views_views_views.png" />
     <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/Full_views.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-524">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/TopRepositories_views_histogram.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Clones.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Contributions.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/Full_views.png" />
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/TopRepositories_views_histogram.png" />
+    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Clones.csv" />
+    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/Contributions.csv" />
     <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/General/Contributions.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -582,38 +570,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/TopRepositories_clones_histogram.png" />
+    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/General/Referrers.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/binder-stats_config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh_traffic/configFiles/binderhub_config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/Images/Full_cumulative.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/TopRepositories_clones_histogram.png">
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/table/Referrers_table.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/table/Contributors_table.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/jupyterhub_views_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/promoss_views_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/scientists-analysis-wikipedia_views_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/zero-to-jupyterhub-k8s_views_cumulative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/readRepositories.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawlData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/views/MostRepositories_views_histogram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+        <state relative-caret-position="270">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gh_traffic/CSV_Files/General/Referrers.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/table/Contributors_table.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/Images/table/Referrers_table.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/DataRetrieval/readJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
+        <state relative-caret-position="-1775">
+          <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>

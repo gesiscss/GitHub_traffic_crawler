@@ -19,8 +19,10 @@ import csv
 from enum import Enum
 
 # these are not constant values should be changed
-IMAGES_FOLDER = os.path.dirname(os.getcwd()) + "\Visualization\Images\\"
-
+CURRENT_FOLDER = os.path.dirname(os.getcwd())
+IMAGES_FOLDER = CURRENT_FOLDER + "\GesisTraffic\Visualization\Images\\"
+REFFERERS_FILE = CURRENT_FOLDER + "\GesisTraffic\gh_traffic\CSV_Files\General\Referrers.csv"
+CLONES_PATH = CURRENT_FOLDER + "\GesisTraffic\gh_traffic\CSV_Files\General\Clones.csv"
 
 # REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
 def timeStampPlotter():
@@ -30,17 +32,14 @@ def timeStampPlotter():
     timestamps = np.linspace(now, now + duration, n)
     dates = [dt.datetime.fromtimestamp(ts) for ts in timestamps]
 
-
 def testPlotterCumulativeCount():
     for key, value in readJson.findJsonFiles().items():
         subcategory = readJson.getShortName2(path=key)[1]
         name = readJson.getShortName(path=key)
         df = value
-
         if (df.values.size == 0):
             print(name, " has empty values")
             continue
-
         timestampValues = df.values[:, 1]
         if (subcategory == 'views'):
             if (isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
@@ -120,6 +119,7 @@ def savePlotAsAnImage(plt, name, type, subtype=""):
 def mergePngFiles(type):
     images_list = readJson.findPngFiles(type)
     imgs = [Image.open(i) for i in images_list]
+    print(imgs)
     dimension = math.ceil(math.sqrt(math.ceil(len(images_list))))
     listOfHorizontalImages = []
 
@@ -137,7 +137,7 @@ def mergePngFiles(type):
     min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs[0:dimension]])[0][1]
     img_merge = np.vstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs))
     img_merge = Image.fromarray(img_merge)
-    path = os.getcwd()+"\Images\Full_" + type + ".png"
+    path = os.getcwd()+"\Visualization\Images\Full_" + type + ".png"
     img_merge.save(path)
 
     #dirTest = os.path.dirname(os.getcwd()) + "\GesisTraffic\Visualization\\"
@@ -210,7 +210,7 @@ def visualizeGeneralMethod(type):
 
     if (type == "referrers"):
         concatenatedPD = pd.concat(valuesReferrers)
-        nameOfTheFile = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\General\Referrers.csv"
+        nameOfTheFile = REFFERERS_FILE
         concatenatedPD.to_csv(nameOfTheFile, sep='\t', encoding='utf-8')
 
         print("Referrers table: ",referrersTable)
@@ -230,7 +230,7 @@ def visualizeGeneralMethod(type):
 
     if (type == "clones"):
         concatenatedPD = pd.concat(values)
-        nameOfTheFile = os.path.dirname(os.getcwd()) + "\gh_traffic\CSV_Files\General\Clones.csv"
+        nameOfTheFile = CLONES_PATH
         concatenatedPD.to_csv(nameOfTheFile, sep='\t', encoding='utf-8', index=False)
         histogramClonedRepositories(pandaFiles)
         histogramClonedRepositories(pandaFiles, reversed=True)
@@ -307,14 +307,8 @@ def gitHubUsersVisualization():
     savePlotAsAnImage(plt, name="Contributors", type= "table")
 
 def runVisualization():
-    visualizeGeneralMethod()
-    histogramViewedRepositories()
+    visualizeGeneralMethod("views")
+    visualizeGeneralMethod("referrers")
+    visualizeGeneralMethod("clones")
 
-#visualizeGeneralMethod(type="referrers")
-#gitHubUsersVisualization()
-
-
-#histogramMostClonedRepositories()
-#histogramMostViewedRepositories()
-
-visualizeGeneralMethod("views")
+runVisualization()
