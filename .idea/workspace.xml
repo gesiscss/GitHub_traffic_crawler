@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRetrieval/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/Full_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/Full_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/flow_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/flow_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/clones/LeastRepositories_clones_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/clones/LeastRepositories_clones_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/clones/MostRepositories_clones_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/clones/MostRepositories_clones_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/views/LeastRepositories_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/views/LeastRepositories_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/views/MostRepositories_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/views/MostRepositories_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/table/Contributors_table.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/table/Contributors_table.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/table/Referrers_table.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/table/Referrers_table.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlData.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Clones.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Clones.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Contributions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Contributions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Referrers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/CSV_Files/General/Referrers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Language-Olga-master/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/Wikipedia-Language-Olga-master/views/2018-08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/binderhub/views/2018-08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/flow/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/flow/views/2018-08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/jhub_shibboleth_auth/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/jhub_shibboleth_auth/views/2018-08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/orc/clones/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/orc/clones/2018-08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/orc/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/orc/views/2018-08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/wiki-download-parse-page-views/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/wiki-download-parse-page-views/views/2018-08.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-08.json" beforeDir="false" afterPath="$PROJECT_DIR$/gh_traffic/Repositories/workshop_girls_day/views/2018-08.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crawler.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crawler.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/environment.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -210,6 +185,7 @@
         <option value="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
         <option value="$PROJECT_DIR$/crawler.ipynb" />
+        <option value="$PROJECT_DIR$/environment.yml" />
       </list>
     </option>
   </component>
@@ -487,7 +463,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getData.bat" />
     <entry file="file://$PROJECT_DIR$/a" />
     <entry file="file://$PROJECT_DIR$/test.bat" />
     <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png">
@@ -680,6 +655,13 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
