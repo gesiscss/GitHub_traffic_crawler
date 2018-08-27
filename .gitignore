@@ -1,4 +1,7 @@
 gh_traffic/configFiles
 DataRetrieval/setupConfigFile.py
 DataRetrieval/__pycache__
+Visualization/__pycache__
+tmp/
+blob/
 venv
