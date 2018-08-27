@@ -25,7 +25,9 @@ def readJsonPanda(jsonPath):
 # jsonContent is in panda-Dataframe format
 def findJsonFiles():
 
-    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "/GesisTraffic/gh_traffic/Repositories"
+    name = os.path.dirname(os.getcwd())
+    print("Test name: ", name)
+    gesisTrafficDirectory = name + "/GesisTraffic/gh_traffic/Repositories"
     pathlist = Path(gesisTrafficDirectory).glob('**/*.json')
     jsonFileAndContentInPandaFormat = {}
 
