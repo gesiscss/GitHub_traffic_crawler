@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cada7e36-a9e9-473b-b502-f7b82126a56a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/crawler-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/crawler-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataRetrieval/readJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataRetrieval/readJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/Full_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/Full_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/GitHub_traffic_crawler_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Hierarchical_nested_SBM_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Hierarchical_nested_SBM_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Homophilic-Ntw-Viz_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Homophilic-Ntw-Viz_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/PythonDataScienceHandbook_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/WikiConflict_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/WikiConflict_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Language-Olga-master_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/Wikipedia-Politician-Network_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/flow_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/flow_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/image-gender-inference_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/introduction_networkx_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/introduction_networkx_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/jhub_shibboleth_auth_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/jupyterhub_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/jupyterhub_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/kubespawner_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/kubespawner_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/orc_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/promoss_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/promoss_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/ptm_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/scientists-analysis-wikipedia_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/scientists-analysis-wikipedia_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/wiki-download-parse-page-views_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/wikiwho_interactions_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/wikiwho_interactions_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/workshop_girls_day_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/cumulative/zero-to-jupyterhub-k8s_views_cumulative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/cumulative/zero-to-jupyterhub-k8s_views_cumulative.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/views/LeastRepositories_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/views/LeastRepositories_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/Images/histogram/views/MostRepositories_views_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/Images/histogram/views/MostRepositories_views_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualization/basicPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualization/basicPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basicPlot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
+            <state relative-caret-position="1498">
+              <caret line="305" selection-start-line="305" selection-end-line="305" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -68,8 +39,8 @@
       <file leaf-file-name="setupConfigFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="310">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -80,11 +51,20 @@
       <file leaf-file-name="csvManipulation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+            <state relative-caret-position="1675">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -195,13 +175,14 @@
         <option value="$USER_HOME$/Downloads/contributors.json" />
         <option value="$PROJECT_DIR$/DataRetrieval/readRepositories.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFile.py" />
         <option value="$PROJECT_DIR$/crawler.ipynb" />
         <option value="$PROJECT_DIR$/environment.yml" />
         <option value="$PROJECT_DIR$/DataRetrieval/readJson.py" />
         <option value="$PROJECT_DIR$/DataRetrieval/csvManipulation.py" />
         <option value="$PROJECT_DIR$/crawlData.py" />
         <option value="$PROJECT_DIR$/Visualization/basicPlot.py" />
+        <option value="$PROJECT_DIR$/DataRetrieval/setupConfigFile.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -248,7 +229,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/traffic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -453,7 +434,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/a" />
     <entry file="file://$PROJECT_DIR$/test.bat" />
     <entry file="file://$PROJECT_DIR$/Visualization/Images/cumulative/binderhub_views_cumulative.png">
       <provider selected="true" editor-type-id="images" />
@@ -588,13 +568,6 @@
     <entry file="file://$PROJECT_DIR$/Visualization/Images/histogram/views/MostRepositories_views_histogram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/environment.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -609,10 +582,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crawlData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1498">
+          <caret line="305" selection-start-line="305" selection-end-line="305" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/setupConfigFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="310">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
@@ -629,33 +622,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawlData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataRetrieval/csvManipulation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+        <state relative-caret-position="1675">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Visualization/basicPlot.py">
+    <entry file="file://$PROJECT_DIR$/environment.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
