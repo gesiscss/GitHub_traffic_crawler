@@ -25,12 +25,6 @@ REFFERERS_FILE = CURRENT_FOLDER + "\GesisTraffic\gh_traffic\CSV_Files\General\Re
 CLONES_PATH = CURRENT_FOLDER + "\GesisTraffic\gh_traffic\CSV_Files\General\Clones.csv"
 
 # REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
-def timeStampPlotter():
-    n = 20
-    duration = 1000
-    now = time.mktime(time.localtime())
-    timestamps = np.linspace(now, now + duration, n)
-    dates = [dt.datetime.fromtimestamp(ts) for ts in timestamps]
 
 def testPlotterCumulativeCount():
     for key, value in readJson.findJsonFiles().items():
@@ -112,14 +106,13 @@ def savePlotAsAnImage(plt, name, type, subtype=""):
     if not os.path.exists(newpath):
         os.makedirs(newpath)
     fullPathAndName = newpath + str(name) + "_" + type + ".png"
-    print("Saving picture: ", fullPathAndName)
+    #print("Saving picture: ", fullPathAndName)
     plt.savefig(fullPathAndName, bbox_inches='tight')
 
 
 def mergePngFiles(type):
     images_list = readJson.findPngFiles(type)
     imgs = [Image.open(i) for i in images_list]
-    print(imgs)
     dimension = math.ceil(math.sqrt(math.ceil(len(images_list))))
     listOfHorizontalImages = []
 
@@ -201,19 +194,19 @@ def visualizeGeneralMethod(type):
 
 
     if (type == "views"):
-        print("\n\n\nMerging..\n\n\n")
+        #print("\n\n\nMerging..\n\n\n")
         mergePngFiles(type="cumulative")
-        print("\n\n\nTotal views..\n\n\n")
+        #print("\n\n\nTotal views..\n\n\n")
         histogramViewedRepositories(pandaFiles)
         histogramViewedRepositories(pandaFiles, reversed = True)
-        print("\n\n\Done.")
+        #print("\n\n\Done.")
 
     if (type == "referrers"):
         concatenatedPD = pd.concat(valuesReferrers)
         nameOfTheFile = REFFERERS_FILE
         concatenatedPD.to_csv(nameOfTheFile, sep='\t', encoding='utf-8')
 
-        print("Referrers table: ",referrersTable)
+        #print("Referrers table: ",referrersTable)
         columnsName = ['repName', 'Strongest referrer', 'count', 'uniques', '2nd strongest referrer',
                         'count', 'uniques']
 
@@ -226,7 +219,6 @@ def visualizeGeneralMethod(type):
           the_table._cells[(i, 4)].set_facecolor("#FF4500"))
          for i in range(1, len(referrersTable)+1)]
         savePlotAsAnImage(plt, name="Referrers", type="table")
-
 
     if (type == "clones"):
         concatenatedPD = pd.concat(values)
@@ -306,9 +298,8 @@ def gitHubUsersVisualization():
      for i in range(1,len(df.values)+1)]
     savePlotAsAnImage(plt, name="Contributors", type= "table")
 
+#full method for visualization
 def runVisualization():
     visualizeGeneralMethod("views")
     visualizeGeneralMethod("referrers")
     visualizeGeneralMethod("clones")
-
-runVisualization()

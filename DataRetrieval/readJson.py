@@ -18,8 +18,6 @@ def readJsonPlain(filename):
 def readJsonPanda(jsonPath):
 
     df = pd.read_json(jsonPath)
-    #print(jsonPath, " : \n\n\n", df, "\n\n\n")
-    #print(type(df))
     return df
 
 #finds and iterates over json files in folders and subfolders
