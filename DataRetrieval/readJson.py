@@ -3,6 +3,7 @@ from pathlib import Path
 import pandas as pd
 import os
 from enum import Enum
+import paramiko
 
 class PlotType(Enum):
     histogram = 1
@@ -24,9 +25,7 @@ def readJsonPanda(jsonPath):
 #and returns a tuple ([ jsonPath, jsonContent ])
 # jsonContent is in panda-Dataframe format
 def findJsonFiles():
-
-    name = os.path.dirname(os.getcwd())
-    gesisTrafficDirectory = name + "/GesisTraffic/gh_traffic/Repositories"
+    gesisTrafficDirectory = "/home/jovyan/gh_traffic/Repositories"
     pathlist = Path(gesisTrafficDirectory).glob('**/*.json')
     jsonFileAndContentInPandaFormat = {}
 
