@@ -5,9 +5,7 @@ import os
 import operator
 from DataRetrieval import readRepositories as rr
 
-CSV_FOLDER = os.path.dirname(os.getcwd()) + "\GesisTraffic\gh_traffic\CSV_Files"
-
-
+CSV_FOLDER = os.path.dirname(os.getcwd()) + "/GesisTraffic/gh_traffic/CSV_Files"
 
 def giveFullPandaFiles(type="views"): #return list of tuples with format : (path, concatenated dataframe)
     temporaryListOfDictionaries = []

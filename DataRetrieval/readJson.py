@@ -26,7 +26,6 @@ def readJsonPanda(jsonPath):
 def findJsonFiles():
 
     name = os.path.dirname(os.getcwd())
-    print("Test name: ", name)
     gesisTrafficDirectory = name + "/GesisTraffic/gh_traffic/Repositories"
     pathlist = Path(gesisTrafficDirectory).glob('**/*.json')
     jsonFileAndContentInPandaFormat = {}

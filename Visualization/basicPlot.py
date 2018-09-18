@@ -20,11 +20,13 @@ from enum import Enum
 
 # these are not constant values should be changed
 CURRENT_FOLDER = os.path.dirname(os.getcwd())
-IMAGES_FOLDER = CURRENT_FOLDER + "\GesisTraffic\Visualization\Images\\"
-REFFERERS_FILE = CURRENT_FOLDER + "\GesisTraffic\gh_traffic\CSV_Files\General\Referrers.csv"
-CLONES_PATH = CURRENT_FOLDER + "\GesisTraffic\gh_traffic\CSV_Files\General\Clones.csv"
+IMAGES_FOLDER = CURRENT_FOLDER + "/GesisTraffic/Visualization/Images/"
+REFFERERS_FILE = CURRENT_FOLDER + "/GesisTraffic/gh_traffic/CSV_Files/General/Referrers.csv"
+CLONES_PATH = CURRENT_FOLDER + "/GesisTraffic/gh_traffic/CSV_Files/General/Clones.csv"
 
 # REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
+
+#This file is for generating visualization
 
 def testPlotterCumulativeCount():
     for key, value in readJson.findJsonFiles().items():
@@ -106,7 +108,7 @@ def savePlotAsAnImage(plt, name, type, subtype=""):
     if not os.path.exists(newpath):
         os.makedirs(newpath)
     fullPathAndName = newpath + str(name) + "_" + type + ".png"
-    #print("Saving picture: ", fullPathAndName)
+    print("Saving picture: ", fullPathAndName)
     plt.savefig(fullPathAndName, bbox_inches='tight')
 
 
@@ -165,7 +167,7 @@ def visualizeGeneralMethod(type):
 
         if (type == "views"):
             timestampValues = df.values[:, 1]
-            if (isinstance(timestampValues[0], pd._libs.tslibs.timestamps.Timestamp)):
+            if (isinstance(timestampValues[0], pd.Timestamp)):
                 timestampValues = [str(timeStampValue.date()) for timeStampValue in timestampValues]
                 example = df.ix[:, 'count']
                 test = example.cumsum()
@@ -194,12 +196,12 @@ def visualizeGeneralMethod(type):
 
 
     if (type == "views"):
-        #print("\n\n\nMerging..\n\n\n")
+        print("\n\n\nMerging..\n\n\n")
         mergePngFiles(type="cumulative")
-        #print("\n\n\nTotal views..\n\n\n")
+        print("\n\n\nTotal views..\n\n\n")
         histogramViewedRepositories(pandaFiles)
         histogramViewedRepositories(pandaFiles, reversed = True)
-        #print("\n\n\Done.")
+        print("\n\n\Done.")
 
     if (type == "referrers"):
         concatenatedPD = pd.concat(valuesReferrers)

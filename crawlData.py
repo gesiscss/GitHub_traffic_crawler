@@ -7,15 +7,7 @@ def mainMethod():
     setup.generateConfigFiles()
     setup.updateBatFile()
     setupBat = os.path.dirname(os.getcwd())+"/GesisTraffic/setup.bat"
-    print("Directory is: ", setupBat)
     os.system(setupBat)
-    #visual.runVisualization()
-
-def visualizationMethod():
     visual.runVisualization()
 
-
-
-#mainMethod()
-print("Test")
-
+mainMethod()
