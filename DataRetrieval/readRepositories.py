@@ -92,8 +92,8 @@ def getRequestContributors():
 
 def getToken():
     Config = configparser.ConfigParser()
-    currentPath = os.path.dirname(os.getcwd())
-    Config.read(currentPath + "/apiConfigData.ini")
+    currentPath = os.path.dirname(os.getcwd())+"/GitHub_traffic_crawler"
+    text = Config.read(currentPath + "/apiConfigData.ini")
     section = Config.sections()[0]
     token = Config.get(section, 'token').split("/")[-1]
     return token
