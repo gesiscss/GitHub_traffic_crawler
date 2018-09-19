@@ -104,12 +104,14 @@ def testPlotterHistogram2():
 
 def savePlotAsAnImage(plt, name, type, subtype=""):
 
-    newpath = IMAGES_FOLDER + type + subtype+"\\"
-    if not os.path.exists(newpath):
-        os.makedirs(newpath)
-    fullPathAndName = newpath + str(name) + "_" + type + ".png"
-    print("Saving picture: ", fullPathAndName)
-    plt.savefig(fullPathAndName, bbox_inches='tight')
+    plt.show()
+
+    # newpath = IMAGES_FOLDER + type + subtype+"\\"
+    # if not os.path.exists(newpath):
+    #     os.makedirs(newpath)
+    # fullPathAndName = newpath + str(name) + "_" + type + ".png"
+    # print("Saving picture: ", fullPathAndName)
+    # plt.savefig(fullPathAndName, bbox_inches='tight')
 
 
 def mergePngFiles(type):
@@ -196,8 +198,8 @@ def visualizeGeneralMethod(type):
 
 
     if (type == "views"):
-        print("\n\n\nMerging..\n\n\n")
-        mergePngFiles(type="cumulative")
+        #print("\n\n\nMerging..\n\n\n")
+        #mergePngFiles(type="cumulative")
         print("\n\n\nTotal views..\n\n\n")
         histogramViewedRepositories(pandaFiles)
         histogramViewedRepositories(pandaFiles, reversed = True)
