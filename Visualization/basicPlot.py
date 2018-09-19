@@ -45,10 +45,6 @@ def testPlotterCumulativeCount():
                 plt.figure();
                 test.plot();
                 plt.legend(loc='best')
-
-                # fig, ax = plt.subplots()
-                # ax.tick_params(labelbottom=False)
-
                 title = "Info from " + timestampValues[0] + " to " + timestampValues[-1] + " \nfor " + " : " + name
                 plt.title(title)
                 savePlotAsAnImage(plt, name=name, type='cumulative')

@@ -5,8 +5,10 @@ Visualization/__pycache__
 tmp/
 blob/
 venv
-
+text
 .idea/
 .ipynb_checkpoints/
 *.pyc
 __pycache__/
+crawlData.py
+apiConfigData.ini

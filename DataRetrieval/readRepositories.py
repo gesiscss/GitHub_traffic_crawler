@@ -3,13 +3,31 @@ import json
 from DataRetrieval import readJson
 import pandas as pd
 import numpy as np
+import configparser
+import os
 
-def retrieveRepositoriesList():
+def retrieveRepositoriesList(params=None):
 
-    response = requests.get("https://api.github.com/orgs/gesiscss/repos").json()
-    #print("Response: ", response)
-    #API can sometimes reply with - rate limit exceeded for this server.. make an offline json file
-    dataFrame = pd.DataFrame.from_dict(response)
+    data = []
+    page = 1
+    api_url = 'https://api.github.com'
+    path = '/orgs/gesiscss/repos'
+    token = getToken()
+    headers = {'Authorization': 'token {}'.format(token)}
+    params = {} if params is None else params
+    while True:
+        params.update({'page': page})
+        r = requests.get(api_url + path, headers=headers, params=params)
+        r.raise_for_status()
+        _data = r.json()
+        if type(_data) == list:
+            data.extend(_data)
+        else:
+            data.append(_data)
+        if len(_data) < 30:
+            break
+        page += 1
+    dataFrame = pd.DataFrame.from_dict(data)
     listOfRepositories = dataFrame['archive_url'].values
     listOfRepositories = [getShortNameRepository(repository) for repository in listOfRepositories]
     return listOfRepositories
@@ -72,11 +90,10 @@ def getRequestContributors():
 
         return df
 
-
-
-            # API can sometimes reply with - rate limit exceeded for this server.. make an offline json file
-            #dataFrame = pd.DataFrame.from_dict(response)
-            # listOfRepositories = dataFrame['archive_url'].values
-            # listOfRepositories = [getShortNameRepository(repository) for repository in listOfRepositories]
-
-
+def getToken():
+    Config = configparser.ConfigParser()
+    currentPath = os.path.dirname(os.getcwd())
+    Config.read(currentPath + "/apiConfigData.ini")
+    section = Config.sections()[0]
+    token = Config.get(section, 'token').split("/")[-1]
+    return token
