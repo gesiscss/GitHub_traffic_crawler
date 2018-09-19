@@ -5,3 +5,7 @@ Visualization/__pycache__
 tmp/
 blob/
 venv
+
+.idea/
+.ipynb_checkpoints/
+*.pyc
