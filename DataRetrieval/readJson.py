@@ -35,7 +35,7 @@ def findJsonFiles():
 
 def findPngFiles(type):
 
-    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "/GesisTraffic/Visualization/Images/"+type
+    gesisTrafficDirectory = os.path.dirname(os.getcwd()) + "/home/jovyan/Visualization/Images/"+type
     pathlist = Path(gesisTrafficDirectory).glob('**/*.png')
     pathlistFinal = [str(x) for x in pathlist]
 

@@ -20,9 +20,9 @@ from enum import Enum
 
 # these are not constant values should be changed
 CURRENT_FOLDER = os.path.dirname(os.getcwd())
-IMAGES_FOLDER = CURRENT_FOLDER + "/GesisTraffic/Visualization/Images/"
-REFFERERS_FILE = CURRENT_FOLDER + "/GesisTraffic/gh_traffic/CSV_Files/General/Referrers.csv"
-CLONES_PATH = CURRENT_FOLDER + "/GesisTraffic/gh_traffic/CSV_Files/General/Clones.csv"
+IMAGES_FOLDER = CURRENT_FOLDER + "/jovyan/Visualization/Images/"
+REFFERERS_FILE = CURRENT_FOLDER + "/jovyan/gh_traffic/CSV_Files/General/Referrers.csv"
+CLONES_PATH = CURRENT_FOLDER + "/jovyan/gh_traffic/CSV_Files/General/Clones.csv"
 
 # REPOSITORY_NAME = readJson.receiveRepositoryName()+"\\"
 
