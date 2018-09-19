@@ -3,7 +3,6 @@ from pathlib import Path
 import pandas as pd
 import os
 from enum import Enum
-import paramiko
 
 class PlotType(Enum):
     histogram = 1
