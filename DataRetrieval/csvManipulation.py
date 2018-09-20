@@ -23,7 +23,7 @@ def giveFullPandaFiles(type="views"): #return list of tuples with format : (path
 
         if(type == category== "views" and isMonthlyFile(key)==True):
             tuple = (temporaryPath, [value])
-            print(temporaryPath)
+            #print(temporaryPath)
             if not((temporaryKey==tuple[0])):
                 temporaryListOfDictionaries.append(tuple)
                 listIterator = listIterator + 1
@@ -69,7 +69,7 @@ def concatDataFrameLists(list):
     cumulativeValue = 0
     for df in list:
         cumulativeValue = df.iloc[[-1][0]]
-        print(df, "\n\n\n")
+        #print(df, "\n\n\n")
 
 def isMonthlyFile(jsonFile):
     lastPartName = readJson.getShortName2(jsonFile)[2]
