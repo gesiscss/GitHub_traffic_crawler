@@ -16,8 +16,6 @@ def giveFullPandaFiles(type="views"): #return list of tuples with format : (path
 
     jsonDictionary = readJson.findJsonFiles().items()
 
-    print(jsonDictionary)
-
     for key, value in jsonDictionary:
 
         category = readJson.getShortName2(key)[1]
