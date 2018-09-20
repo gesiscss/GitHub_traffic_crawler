@@ -66,9 +66,9 @@ def updatePythonFile():
     for i, repository in enumerate(repositories):
         SETUP_BAT_FULL_PHRASE = SETUP_BAT_PHRASE_FIRST_PART + repository + SETUP_BAT_PHRASE_LAST_PART
         command = SETUP_BAT_FULL_PHRASE.split(" ")
-        print("Command is: ", command)
         subprocess.call(command)
 
     print("Output is available in gh_traffic/Repositories")
+    return repositories
 
 

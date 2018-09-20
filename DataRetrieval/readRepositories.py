@@ -12,7 +12,7 @@ def retrieveRepositoriesList(params=None):
     page = 1
     api_url = 'https://api.github.com'
     path = '/orgs/gesiscss/repos'
-    token = getToken()
+    token =  getToken()
     headers = {'Authorization': 'token {}'.format(token)}
     params = {} if params is None else params
     while True:
@@ -92,7 +92,7 @@ def getRequestContributors():
 
 def getToken():
     Config = configparser.ConfigParser()
-    currentPath = os.path.dirname(os.getcwd())+"/GitHub_traffic_crawler"
+    currentPath = os.path.dirname(os.getcwd()) + "/GitHub_traffic_crawler"
     text = Config.read(currentPath + "/apiConfigData.ini")
     section = Config.sections()[0]
     token = Config.get(section, 'token').split("/")[-1]

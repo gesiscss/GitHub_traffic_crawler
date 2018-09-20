@@ -16,6 +16,8 @@ def giveFullPandaFiles(type="views"): #return list of tuples with format : (path
 
     jsonDictionary = readJson.findJsonFiles().items()
 
+    print(jsonDictionary)
+
     for key, value in jsonDictionary:
 
         category = readJson.getShortName2(key)[1]
@@ -23,6 +25,7 @@ def giveFullPandaFiles(type="views"): #return list of tuples with format : (path
 
         if(type == category== "views" and isMonthlyFile(key)==True):
             tuple = (temporaryPath, [value])
+            print(temporaryPath)
             if not((temporaryKey==tuple[0])):
                 temporaryListOfDictionaries.append(tuple)
                 listIterator = listIterator + 1

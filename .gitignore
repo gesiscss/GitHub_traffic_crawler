@@ -11,3 +11,5 @@ text
 __pycache__/
 crawlData.py
 apiConfigData.ini
+report.txt
+gh_traffic/Repositories
