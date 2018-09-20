@@ -92,7 +92,6 @@ def writeToCSVFile():
 def writeToCSVFileContributors(df):
 
     nameOfTheFile = CSV_FOLDER + "\General\Contributions.csv"
-    print(nameOfTheFile)
 
     if df is not None:
         with open(nameOfTheFile, 'wb') as csvfile:
