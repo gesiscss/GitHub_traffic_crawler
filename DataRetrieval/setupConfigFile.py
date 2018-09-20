@@ -44,8 +44,7 @@ def updateBatFile():
 
     for i, repository in enumerate(repositories):
         SETUP_BAT_FULL_PHRASE = SETUP_BAT_PHRASE_FIRST_PART + repository + SETUP_BAT_PHRASE_LAST_PART
-        with open(setupBatFile, 'a') as the_file:
-            FULL_STRING = FULL_STRING + SETUP_BAT_FULL_PHRASE+"\n"
+        FULL_STRING = FULL_STRING + SETUP_BAT_FULL_PHRASE+"\n"
     with open(setupBatFile, 'w') as the_file:
         the_file.write(FULL_STRING)
 
@@ -60,12 +59,13 @@ def updateBatFile():
 def updatePythonFile():
     repositories = rr.retrieveRepositoriesList()
     SETUP_BAT_PHRASE_FIRST_PART = "github_get_traffic -c gh_traffic/configFiles/"
-    SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic"
+    SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic/Repositories/"
     SETUP_BAT_FULL_PHRASE = ""
 
     for i, repository in enumerate(repositories):
-        SETUP_BAT_FULL_PHRASE = SETUP_BAT_PHRASE_FIRST_PART + repository + SETUP_BAT_PHRASE_LAST_PART
+        SETUP_BAT_FULL_PHRASE = SETUP_BAT_PHRASE_FIRST_PART + repository + SETUP_BAT_PHRASE_LAST_PART+repository
         command = SETUP_BAT_FULL_PHRASE.split(" ")
+        print("Command is: ", command)
         subprocess.call(command)
 
     print("Output is available in gh_traffic/Repositories")
