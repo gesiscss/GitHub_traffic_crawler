@@ -110,7 +110,7 @@ def savePlotAsAnImage(plt, name, type, subtype=""):
     # plt.savefig(fullPathAndName, bbox_inches='tight')
 
 
-def mergePngFiles(type):
+#def mergePngFiles(type):
     # images_list = readJson.findPngFiles(type)
     # imgs = [Image.open(i) for i in images_list]
     # dimension = math.ceil(math.sqrt(math.ceil(len(images_list))))
