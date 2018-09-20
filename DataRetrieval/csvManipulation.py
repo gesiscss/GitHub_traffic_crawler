@@ -16,7 +16,7 @@ def giveFullPandaFiles(type="views"): #return list of tuples with format : (path
 
     if type is not "views" & type is not "referrers" & type is not "clones":
         print("Please use one of the following parameters: \n\nviews\nreferrers\nclones\n\n")
-        return 
+        return
     jsonDictionary = readJson.findJsonFiles().items()
 
     for key, value in jsonDictionary:
