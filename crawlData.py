@@ -17,4 +17,3 @@ def makeReport(listOfRepositories):
     file.close()
 
 crawlData()
-
