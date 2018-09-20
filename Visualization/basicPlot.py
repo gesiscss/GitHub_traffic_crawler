@@ -12,7 +12,7 @@ import dateutil.parser
 import os
 from datetime import datetime
 import sys
-from PIL import Image
+#from PIL import Image
 import math
 import csv
 
@@ -111,32 +111,32 @@ def savePlotAsAnImage(plt, name, type, subtype=""):
 
 
 def mergePngFiles(type):
-    images_list = readJson.findPngFiles(type)
-    imgs = [Image.open(i) for i in images_list]
-    dimension = math.ceil(math.sqrt(math.ceil(len(images_list))))
-    listOfHorizontalImages = []
-
-    for k in range(dimension):
-        min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs[k:dimension + k]])[0][1]
-        img_merge = np.hstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs[k:dimension + k]))
-
-        # save the horizontally merged images
-        img_merge = Image.fromarray(img_merge)
-        path = str(k) + "temporary.png"
-        listOfHorizontalImages.append(path)
-        img_merge.save(path)
-
-    imgs = [Image.open(i) for i in listOfHorizontalImages]
-    min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs[0:dimension]])[0][1]
-    img_merge = np.vstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs))
-    img_merge = Image.fromarray(img_merge)
-    path = os.getcwd()+"\Visualization\Images\Full_" + type + ".png"
-    img_merge.save(path)
-
-    #dirTest = os.path.dirname(os.getcwd()) + "\GesisTraffic\Visualization\\"
-    for file in os.listdir(os.path.dirname(os.getcwd()+"\GesisTraffic")):
-        if file.endswith('temporary.png'):
-            os.remove(file)
+    # images_list = readJson.findPngFiles(type)
+    # imgs = [Image.open(i) for i in images_list]
+    # dimension = math.ceil(math.sqrt(math.ceil(len(images_list))))
+    # listOfHorizontalImages = []
+    #
+    # for k in range(dimension):
+    #     min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs[k:dimension + k]])[0][1]
+    #     img_merge = np.hstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs[k:dimension + k]))
+    #
+    #     # save the horizontally merged images
+    #     img_merge = Image.fromarray(img_merge)
+    #     path = str(k) + "temporary.png"
+    #     listOfHorizontalImages.append(path)
+    #     img_merge.save(path)
+    #
+    # imgs = [Image.open(i) for i in listOfHorizontalImages]
+    # min_img_shape = sorted([(np.sum(i.size), i.size) for i in imgs[0:dimension]])[0][1]
+    # img_merge = np.vstack((np.asarray(i.resize(min_img_shape, Image.ANTIALIAS)) for i in imgs))
+    # img_merge = Image.fromarray(img_merge)
+    # path = os.getcwd()+"\Visualization\Images\Full_" + type + ".png"
+    # img_merge.save(path)
+    #
+    # #dirTest = os.path.dirname(os.getcwd()) + "\GesisTraffic\Visualization\\"
+    # for file in os.listdir(os.path.dirname(os.getcwd()+"\GesisTraffic")):
+    #     if file.endswith('temporary.png'):
+    #         os.remove(file)
 
 
 def visualizeGeneralMethod(type):
