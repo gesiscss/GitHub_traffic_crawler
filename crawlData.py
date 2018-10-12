@@ -4,6 +4,7 @@ import datetime
 from DataRetrieval import setupConfigFile as setup
 
 def crawlData():
+
     setup.generateConfigFiles()
     repositories = setup.updatePythonFile()
     makeReport(repositories)
@@ -17,3 +18,7 @@ def makeReport(listOfRepositories):
     file.close()
 
 crawlData()
+
+
+
+
