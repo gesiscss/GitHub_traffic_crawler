@@ -4,7 +4,9 @@ import subprocess
 import os
 from subprocess import Popen
 
-CONFIG_FILES_FOLDER = os.path.dirname(os.getcwd()) + "/popovicr/GitHub_traffic_crawler/gh_traffic/configFiles/"
+initPath = os.path.abspath(__file__ + "/../..")
+CONFIG_FILES_FOLDER = initPath + "/gh_traffic/configFiles/"
+
 #BAT_FILE_PATH = "/setup.bat"
 
 def readRepositoriesFromConfig():

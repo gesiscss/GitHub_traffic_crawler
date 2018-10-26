@@ -95,7 +95,7 @@ def getToken():
     currentPath = os.path.dirname(os.path.realpath(__file__))
     ini_path = os.path.join(os.path.dirname(currentPath), "apiConfigData.ini")
     text = Config.read(ini_path)
-    section = Config.sections()[0]
+    section = Config.sections()[0] 
     token = Config.get(section, 'token').split("/")[-1]
     return token
 
