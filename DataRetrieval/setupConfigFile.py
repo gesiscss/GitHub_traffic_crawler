@@ -4,8 +4,8 @@ import subprocess
 import os
 from subprocess import Popen
 
-initPath = os.path.abspath(__file__ + "/../..")
-CONFIG_FILES_FOLDER = initPath + "/gh_traffic/configFiles/"
+CONFIG_FILES_FOLDER = os.path.abspath(__file__ + "/../..") + "/gh_traffic/configFiles/"
+#GET_TRAFFIC_METHOD_PATH = os.path.abspath(__file__ + "/../../..") + "/anaconda3/bin/"
 
 #BAT_FILE_PATH = "/setup.bat"
 
@@ -27,7 +27,25 @@ def generateConfigFiles():
         with open(CONFIG_FILES_FOLDER + repository + "_config.ini", 'w') as configfile:  # save
             config.write(configfile)
 
-#Writing on a .bat file list of commands
+#Method for running the GET call for each of the repositories, without writing on a .bat file
+def updatePythonFile():
+    repositories = rr.retrieveRepositoriesList()
+
+    SETUP_BAT_PHRASE_FIRST_PART = "github_get_traffic -c " + CONFIG_FILES_FOLDER
+    SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic/Repositories/"
+    SETUP_BAT_FULL_PHRASE = ""
+
+    for i, repository in enumerate(repositories):
+        SETUP_BAT_FULL_PHRASE = SETUP_BAT_PHRASE_FIRST_PART + repository + SETUP_BAT_PHRASE_LAST_PART+repository
+        command = SETUP_BAT_FULL_PHRASE.split(" ")
+        print("Command is: ", SETUP_BAT_FULL_PHRASE)
+        subprocess.call(command)
+
+    print("Output is available in gh_traffic/Repositories")
+    return repositories
+
+
+# CURRENTLY NOT USED Writing on a .bat file list of commands
 def updateBatFile():
 
     SETUP_BAT_PHRASE_FIRST_PART = "/bigdisk/popovicr/anaconda3/bin/github_get_traffic -c gh_traffic/configFiles/"
@@ -56,22 +74,3 @@ def updateBatFile():
 
     the_file.close()
     return setupBatFile
-
-#Method for running the GET call for each of the repositories, without writing on a .bat file
-def updatePythonFile():
-    repositories = rr.retrieveRepositoriesList()
-
-    SETUP_BAT_PHRASE_FIRST_PART = "github_get_traffic -c gh_traffic/configFiles/"
-    SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic/Repositories/"
-    SETUP_BAT_FULL_PHRASE = ""
-
-    for i, repository in enumerate(repositories):
-        SETUP_BAT_FULL_PHRASE = SETUP_BAT_PHRASE_FIRST_PART + repository + SETUP_BAT_PHRASE_LAST_PART+repository
-        command = SETUP_BAT_FULL_PHRASE.split(" ")
-        print("Command is: ", SETUP_BAT_FULL_PHRASE)
-        subprocess.call(command)
-
-    print("Output is available in gh_traffic/Repositories")
-    return repositories
-
-

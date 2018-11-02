@@ -98,5 +98,3 @@ def getToken():
     section = Config.sections()[0] 
     token = Config.get(section, 'token').split("/")[-1]
     return token
-
-
