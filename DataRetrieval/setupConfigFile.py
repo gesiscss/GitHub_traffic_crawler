@@ -31,7 +31,7 @@ def generateConfigFiles():
 def updatePythonFile():
     repositories = rr.retrieveRepositoriesList()
 
-    SETUP_BAT_PHRASE_FIRST_PART = "github_get_traffic -c " + CONFIG_FILES_FOLDER
+    SETUP_BAT_PHRASE_FIRST_PART = "/bigdisk/popovicr/anaconda3/envs/gesisTraffic/bin/github_get_traffic -c " + CONFIG_FILES_FOLDER
     SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic/Repositories/"
     SETUP_BAT_FULL_PHRASE = ""
 
