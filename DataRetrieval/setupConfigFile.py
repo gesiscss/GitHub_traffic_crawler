@@ -2,6 +2,7 @@ from DataRetrieval import readRepositories as rr
 import configparser
 import subprocess
 import os
+import sys
 from subprocess import Popen
 
 CONFIG_FILES_FOLDER = os.path.abspath(__file__ + "/../..") + "/gh_traffic/configFiles/"
@@ -31,7 +32,7 @@ def generateConfigFiles():
 def updatePythonFile():
     repositories = rr.retrieveRepositoriesList()
 
-    SETUP_BAT_PHRASE_FIRST_PART = "/bigdisk/popovicr/anaconda3/envs/gesisTraffic/bin/github_get_traffic -c " + CONFIG_FILES_FOLDER
+    SETUP_BAT_PHRASE_FIRST_PART = "{}/bin/github_get_traffic -c ".format(sys.exec_prefix) + CONFIG_FILES_FOLDER
     SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic/Repositories/"
     SETUP_BAT_FULL_PHRASE = ""
 
@@ -48,7 +49,7 @@ def updatePythonFile():
 # CURRENTLY NOT USED Writing on a .bat file list of commands
 def updateBatFile():
 
-    SETUP_BAT_PHRASE_FIRST_PART = "/bigdisk/popovicr/anaconda3/bin/github_get_traffic -c gh_traffic/configFiles/"
+    SETUP_BAT_PHRASE_FIRST_PART = "{}/bin/github_get_traffic -c gh_traffic/configFiles/".format(sys.exec_prefix)
     SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic"
     SETUP_BAT_FULL_PHRASE = ""
     setupBatFile = os.path.dirname(os.getcwd()) + "/GitHub_traffic_crawler/setup.bat"
