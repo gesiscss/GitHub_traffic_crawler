@@ -17,7 +17,7 @@ def readRepositoriesFromConfig():
     return Config.get(section, 'repository').split("/")[-1]
 
 def generateConfigFiles():
-
+    ### creates config files from repositories using API ###
     config = configparser.ConfigParser()
     repositories = rr.retrieveRepositoriesList()
     for repository in repositories:
@@ -30,20 +30,23 @@ def generateConfigFiles():
 
 #Method for running the GET call for each of the repositories, without writing on a .bat file
 def updatePythonFile():
-    repositories = rr.retrieveRepositoriesList()
+    repositories = rr.retrieveRepositoriesList() # from API
+    external_repositories = rr.retrieveExternalRepositoriesList(repositories, CONFIG_FILES_FOLDER)
+    all_repositories = repositories.copy()
+    all_repositories.extend(external_repositories)
 
     SETUP_BAT_PHRASE_FIRST_PART = "{}/bin/github_get_traffic -c ".format(sys.exec_prefix) + CONFIG_FILES_FOLDER
     SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic/Repositories/"
     SETUP_BAT_FULL_PHRASE = ""
 
-    for i, repository in enumerate(repositories):
-        SETUP_BAT_FULL_PHRASE = SETUP_BAT_PHRASE_FIRST_PART + repository + SETUP_BAT_PHRASE_LAST_PART+repository
+    for i, repository in enumerate(all_repositories):
+        SETUP_BAT_FULL_PHRASE = SETUP_BAT_PHRASE_FIRST_PART + repository + SETUP_BAT_PHRASE_LAST_PART + repository
         command = SETUP_BAT_FULL_PHRASE.split(" ")
         print("Command is: ", SETUP_BAT_FULL_PHRASE)
         subprocess.call(command)
 
     print("Output is available in gh_traffic/Repositories")
-    return repositories
+    return all_repositories
 
 
 # CURRENTLY NOT USED Writing on a .bat file list of commands

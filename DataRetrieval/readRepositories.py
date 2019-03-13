@@ -32,6 +32,11 @@ def retrieveRepositoriesList(params=None):
     listOfRepositories = [getShortNameRepository(repository) for repository in listOfRepositories]
     return listOfRepositories
 
+def retrieveExternalRepositoriesList(repositories, config_files_folder):
+    print('\n'.join(repositories[:2]))
+    files = [fn.replace("_config.ini", "") for fn in os.listdir(config_files_folder)]
+    return list(set(files) - set(repositories))
+
 def getShortNameRepository(fullPath):
     return fullPath.split('gesiscss/', 1)[1].split('/',1)[0]
 
