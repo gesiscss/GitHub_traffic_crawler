@@ -31,9 +31,15 @@ def generateConfigFiles():
 #Method for running the GET call for each of the repositories, without writing on a .bat file
 def updatePythonFile():
     repositories = rr.retrieveRepositoriesList() # from API
-    external_repositories = rr.retrieveExternalRepositoriesList(repositories, CONFIG_FILES_FOLDER)
+    print('\n'.join(repositories[:2]))
+
+    external_repositories = rr.retrieveExternalRepositoriesList(repositories, CONFIG_FILES_FOLDER) # from extra config files
     all_repositories = repositories.copy()
     all_repositories.extend(external_repositories)
+
+    print("{} gesiscss repositories.".format(len(repositories)))
+    print("{} external repositories.".format(len(external_repositories)))
+    print("{} TOTAL repositories.".format(len(all_repositories)))
 
     SETUP_BAT_PHRASE_FIRST_PART = "{}/bin/github_get_traffic -c ".format(sys.exec_prefix) + CONFIG_FILES_FOLDER
     SETUP_BAT_PHRASE_LAST_PART = "_config.ini -o gh_traffic/Repositories/"

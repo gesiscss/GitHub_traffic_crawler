@@ -33,7 +33,6 @@ def retrieveRepositoriesList(params=None):
     return listOfRepositories
 
 def retrieveExternalRepositoriesList(repositories, config_files_folder):
-    print('\n'.join(repositories[:2]))
     files = [fn.replace("_config.ini", "") for fn in os.listdir(config_files_folder)]
     return list(set(files) - set(repositories))
 
